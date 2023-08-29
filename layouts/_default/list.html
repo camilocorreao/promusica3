@@ -12,7 +12,7 @@
         {{ end }}
         {{ .Content | markdownify }}
         {{ range $paginator.Pages }}
-        <article class="post-summary mb-3">
+        <article class="mb-3">
           <div class="row">
             <div class="col-md-5 d-flex justify-content-center">
               {{- $post := . -}}
@@ -20,7 +20,7 @@
                 {{- if reflect.IsSlice . -}}
                   {{- with index . 0 -}}
                     {{- with $image := $post.Resources.GetMatch . }}
-                      <img src="{{ $image.RelPermalink }}" class="img-fluid post-summary__image"
+                      <img src="{{ $image.RelPermalink }}" class="img-fluid img-h-10"
                         width="{{ .Width }}" height="{{ .Height }}"
                         alt="{{ printf "Image for post %s" $post.Title }}" title="{{ $post.Title }}">
                     {{- end -}}

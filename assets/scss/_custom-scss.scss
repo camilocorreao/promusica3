@@ -1,7 +1,27 @@
-.post-summary {
+// .post-summary {
+// depreciated
+//    &__image {
+//      max-height: 10rem;
+//      object-fit: contain;
+//  }
+// }
 
-    &__image {
-        max-height: 10rem;
+// .img-h-10 {
+//     max-height: 10rem;
+//     object-fit: contain;
+
+// }
+
+// .img-h-15{
+// max-height: 15rem;
+// object-fit: contain;
+// }
+
+$heights : 5, 10, 15, 20;
+
+@each $height in $heights {
+    .img-h-#{$height}{
+        max-height: #{$height}rem;
         object-fit: contain;
     }
 }
