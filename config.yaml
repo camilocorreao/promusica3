@@ -1,0 +1,16 @@
+baseURL: http://localhost/
+title: Hugo Blog Course
+# alternate copyright company text
+copyright: Camilo Correa
+# controls number of pages displayed on list pages
+paginate: 5
+# controls the summary length on list pages
+summaryLength: 10
+# this is required so that Hugo will render markdown to HTML
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  dateFormat: "02/01/2006"

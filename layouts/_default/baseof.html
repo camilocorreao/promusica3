@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+ {{ partial "head" . }}
+</head>
+<body>
+  <header>
+    {{ partial "header" . }}
+  </header>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-9 mb-3">
+        <main>
+          {{ block "main" . }}{{ end }}
+        </main>
+      </div>
+      <div class="col-md-3 mb-3">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim incidunt debitis natus deleniti ipsum deserunt iste possimus vel, laboriosam fugiat totam id accusantium porro fugit voluptatum provident? Dolorum, eligendi cumque, placeat cum minima illum dolorem autem deserunt nesciunt, laudantium ex?
+      </div>
+    </div>
+  </div>
+  <footer>
+    {{ partial "footer" . }}
+  </footer>
+  {{ partial "script-footer" . }}
+</body>
+</html>
