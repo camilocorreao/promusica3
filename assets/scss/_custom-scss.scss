@@ -20,8 +20,32 @@
 $heights : 5, 10, 15, 20;
 
 @each $height in $heights {
-    .img-h-#{$height}{
+    .img-h-#{$height} {
         max-height: #{$height}rem;
         object-fit: contain;
+    }
+}
+
+.widget {
+    padding-bottom: 1rem;
+    
+    //&--recent-posts {
+    
+   // }
+    
+    // &__heading {
+
+    //}
+    ul {
+        padding-left: 0;
+        margin: 0;
+        list-style: none;
+        
+        li {
+            padding-bottom: 0.5rem;
+        }
+    }
+    a {
+      text-decoration: none;
     }
 }
