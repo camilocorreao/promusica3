@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Skillshare course - Create a blog with Hugo the static site generator",
   "scripts": {
-    "dev": "exec-bin node_modules/.bin/hugo/hugo server --gc --disableFastRender ",
+    "dev": "exec-bin node_modules/.bin/hugo/hugo server --gc --disableFastRender",
     "dev:preview": "npm run dev -- --buildDrafts --buildFuture",
     "build": "exec-bin node_modules/.bin/hugo/hugo -v --gc --minify --cleanDestinationDir",
     "renderToDisk": "exec-bin node_modules/.bin/hugo/hugo server --gc --disableFastRender --renderToDisk --cleanDestinationDir ",

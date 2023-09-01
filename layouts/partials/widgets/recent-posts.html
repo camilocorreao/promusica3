@@ -3,9 +3,9 @@
 {{ if $recent }}
     <div class="widget widget--recent-posts"></div>
         <h3 class="widget__headinng">Recent Posts</h3>
-        <ul>
+        <ul class="widget">
         {{ range $recent }}
-            <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+            <li class="widget"><a class="widget" href="{{ .RelPermalink }}">{{ .Title }}</a></li>
         {{ end }}
         </ul>
 {{ end }}
