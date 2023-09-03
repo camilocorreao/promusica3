@@ -11,8 +11,43 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+# config for related posts
+
+related:
+  # pages which are newer than the current page
+  includeNewer: true
+  # seach terms
+  indices:
+    - applyFilter: true
+      cardinalityThreshold: 0
+      name: categories
+      pattern: ""
+      toLower: true
+      type: basic
+      weight: 100
+    - applyFilter: false
+      cardinalityThreshold: 0
+      name: date
+      pattern: ""
+      toLower: false
+      type: basic
+      weight: 10
+    - applyFilter: true
+      cardinalityThreshold: 0
+      name: tags
+      pattern: ""
+      toLower: true
+      type: basic
+      weight: 80
+  threshold: 80
+  # lowercase search query
+  toLower: true
 
 params:
   dateFormat: "02/01/2006"
   widgets:
-  - recent-posts
+    - recent-posts
+    - related-posts
+  # control the number of posts in widgets
+  relatedPosts: 5
+  recentPosts: 5
