@@ -1,4 +1,4 @@
-{{ $recent := where site.RegularPages "Type" "posts" | first site.Params.recentPosts }}
+{{ $recent := where site.RegularPages "Type" "posts" | first (site.Params.recentPosts | default 5) }}
 
 {{ if $recent }}
     <div class="widget widget--recent-posts"></div>

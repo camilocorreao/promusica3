@@ -48,6 +48,9 @@ params:
   widgets:
     - recent-posts
     - related-posts
-  # control the number of posts in widgets
+    - post-categories
+    - post-tags
+  # control the number of items in widgets
   relatedPosts: 5
   recentPosts: 5
+  # postTags: 10

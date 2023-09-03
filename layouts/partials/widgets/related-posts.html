@@ -1,4 +1,4 @@
-{{ $related := site.RegularPages.Related . | first site.Params.relatedPosts }}
+{{ $related := site.RegularPages.Related . | first (site.Params.relatedPosts | default 5) }}
 
 {{ if $related }}
     <div class="widget widget--related-posts"></div>
