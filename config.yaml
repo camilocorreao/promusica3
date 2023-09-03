@@ -11,6 +11,20 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+  highlight:
+    anchorLineNos: false
+    codeFences: true
+    guessSyntax: false
+    hl_Lines: ""
+    hl_inline: false
+    lineAnchors: ""
+    lineNoStart: 1
+    lineNos: false
+    lineNumbersInTable: true
+    noClasses: false # false needs a stylesheet
+    noHl: false
+    style: monokai
+    tabWidth: 4
 # config for related posts
 
 related:
@@ -46,6 +60,7 @@ related:
 params:
   dateFormat: "02/01/2006"
   widgets:
+    - search
     - recent-posts
     - related-posts
     - post-categories
