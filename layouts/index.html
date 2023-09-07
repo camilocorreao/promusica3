@@ -4,9 +4,30 @@
     <div class="row">
       <div class="col">
         {{ partial "description" . }}
+      </div>
+    </div>
+    <div class="row pb-3">
+      <div class="col">
+        {{- $post := . -}}
+              {{- with .Params.images -}}
+                {{- if reflect.IsSlice . -}}
+                  {{- with index . 0 -}}
+                    {{- with $image := $post.Resources.GetMatch . }}
+                      <img src="{{ $image.RelPermalink }}" class="img-fluid img-h-20"
+                        width="{{ .Width }}" height="{{ .Height }}"
+                        alt="{{ printf "Image for post %s" $post.Title }}" title="{{ $post.Title }}">
+                    {{- end -}}
+                  {{- end -}}
+                {{- end -}}
+              {{- end -}}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
         {{ .Content }}
       </div>
     </div>
+    
   </div>
 </section>
 {{ end }}

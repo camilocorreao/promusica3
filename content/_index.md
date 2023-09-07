@@ -1,12 +1,14 @@
 ---
-title: "Home"
+title: "Studio"
 description: "Klang und Ruhe"
 date: 2021-11-16T23:04:08+11:00
 draft: false
 menu: main
 weight: 10
-images: []
+images: [3_gitarrenunterricht.jpg]
 ---
+
+{{< img-index "1" "das Studio in der Böcklinstrasse" >}}
 
 Herzlich willkommen!
 <br>
