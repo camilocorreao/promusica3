@@ -13,7 +13,7 @@
                 {{- if reflect.IsSlice . -}}
                   {{- with index . 0 -}}
                     {{- with $image := $post.Resources.GetMatch . }}
-                      <img src="{{ $image.RelPermalink }}" class="custom-rounded img-fluid img-h-20"
+                      <img src="{{ $image.RelPermalink }}" class="custom-rounded img-fluid img-h-25"
                         width="{{ .Width }}" height="{{ .Height }}"
                         alt="{{ printf "Image for post %s" $post.Title }}" title="{{ $post.Title }}">
                     {{- end -}}
