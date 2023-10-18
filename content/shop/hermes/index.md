@@ -1,6 +1,7 @@
 ---
 title: "Hermes Conrad"
 date: 2022-04-26T21:56:13-04:00
+price: "€ 100.00"
 categories: ["Planet Express"]
 tags: ["Human"]
 draft: false

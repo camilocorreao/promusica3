@@ -32,3 +32,14 @@ $heights : 5, 10, 15, 20;
     height: 55px;
     margin-top: 5px;
   }
+
+// .custom-rounded {
+// border-radius: 15px; /* Adjust the radius value to your preference */
+// }
+
+@media (min-width: 350px) {
+    /* Custom styles for screens larger than 350px */
+    .custom-rounded {
+        border-radius: 20px;
+    }
+}
