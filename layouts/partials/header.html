@@ -15,8 +15,23 @@
             href="{{ .URL }}" {{ if eq .Params.blank true }} target="_blank" rel="noopener"{{ end }}>{{ .Name }}</a>
           </li>
           {{ end }}
-        </ul>
-      </div>
-    </div>
+          <div class="dropdown">
+            <li class="btn-group nav-item">
+              {{ if .IsTranslated }}
+              {{ range .Translations }}
+              <a class="btn btn-warning btn-sm dropdown-toggle" href="{{ .Permalink }}" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ .Site.Language.LanguageName }}</a>
+              {{ end }}
+              {{ else }}
+              {{ if eq .Site.Language.Lang "de" }}
+              <a class="dropdown-item" href="#">Deutsch</a>
+              {{ else }}
+              <a class="dropdown-item" href="#">English</a>
+              {{ end }}
+              {{ end }}
+            </li>
+          </div>
+        </ul>       
+      </div>    
+    </div>   
   </nav>
 </div>

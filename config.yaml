@@ -1,6 +1,97 @@
 baseURL: http://localhost/
+# for xml output
+languageCode: "de-at"
+# for website
+defaultContentLanguage: "de"
+disableLanguages:
+  - es
 title: proMusica
 # alternate copyright company text
+languages:
+  de:
+    contentDir: content/de
+    languageName: Deutsch
+    menu:
+      main:
+        - identifier: studio
+          name: Studio
+          pageRef: /
+          weight: 1
+        - identifier: about
+          name: "Über mich"
+          pageRef: /pages/about
+          weight: 2
+        - identifier: blog
+          name: Blog
+          pageRef: /blog
+          weight: 3
+        - identifier: contact
+          name: Kontakt
+          pageRef: /pages/contact
+          weight: 4
+        - identifier: shop
+          name: Shop
+          pageRef: /shop
+          weight: 5
+        - identifier: guitars
+          name: Gitarren
+          pageRef: /de/shop/guitars
+          parent: shop
+          weight: 1
+        - identifier: accessories
+          name: Zubehör
+          pageRef: /de/shop/accessories
+          parent: shop
+          weight: 2
+
+  en:
+    contentDir: content/en
+    languageName: English
+    menu:
+      main:
+        - identifier: studio
+          name: studio
+          pageRef: /
+          weight: 1
+        - identifier: about
+          name: "about me"
+          pageRef: /de/pages/about
+          weight: 2
+        - identifier: blog
+          name: Blog
+          pageRef: /de/blog
+          weight: 3
+        - identifier: contact
+          name: contact
+          pageRef: /de/pages/contact
+          weight: 4
+        - identifier: shop
+          name: shop
+          pageRef: /de/shop
+          weight: 4
+        - identifier: guitars
+          name: Gitarren
+          pageRef: /de/shop/guitars
+          parent: shop
+          weight: 1
+        - identifier: accessories
+          name: accessories
+          pageRef: /de/shop/accessories
+          parent: shop
+          weight: 2
+  es:
+    contentDir: content/es
+    languageName: Español
+    menu:
+      main:
+        - identifier:
+          name:
+          weight: 20
+        - parent:
+          weight: 40
+          params:
+            divider: true
+    weight: 30
 copyright: Camilo Correa
 # controls number of pages displayed on list pages
 paginate: 5
