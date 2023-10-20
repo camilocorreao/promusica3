@@ -29,10 +29,11 @@ languages:
           name: Kontakt
           pageRef: /pages/contact
           weight: 4
+      secondary:
         - identifier: shop
           name: Shop
           pageRef: /shop
-          weight: 5
+          weight: 1
         - identifier: guitars
           name: Gitarren
           pageRef: /de/shop/guitars

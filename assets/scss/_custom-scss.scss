@@ -1,5 +1,5 @@
 
-$heights : 5, 10, 15, 25;
+$heights : 5, 10, 15, 20;
 
 @each $height in $heights {
     .img-h-#{$height} {

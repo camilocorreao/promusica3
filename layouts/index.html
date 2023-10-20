@@ -1,25 +1,23 @@
 {{ define "main" }}
 <section class="main">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col text-center">
-        {{ partial "description" . }}
+  <div class="container border">
+    <div class="row mb-3 border">
+      <div class="col-4 align-self-center border">
+        <h3 class="text-center border">{{ partial "description" . }}</h3>
       </div>
-    </div>
-    <div class="row pb-3">
-      <div class="col">
-        {{- $post := . -}}
-              {{- with .Params.images -}}
-                {{- if reflect.IsSlice . -}}
-                  {{- with index . 0 -}}
-                    {{- with $image := $post.Resources.GetMatch . }}
-                      <img src="{{ $image.RelPermalink }}" class="custom-rounded img-fluid img-h-25"
-                        width="{{ .Width }}" height="{{ .Height }}"
-                        alt="{{ printf "Image for post %s" $post.Title }}" title="{{ $post.Title }}">
+      <div class="py-3 col align-items-start">
+          {{- $post := . -}}
+                {{- with .Params.images -}}
+                  {{- if reflect.IsSlice . -}}
+                    {{- with index . 0 -}}
+                      {{- with $image := $post.Resources.GetMatch . }}
+                        <img src="{{ $image.RelPermalink }}" class="custom-rounded img-fluid img-h-20"
+                          width="{{ .Width }}" height="{{ .Height }}"
+                          alt="{{ printf "Image for post %s" $post.Title }}" title="{{ $post.Title }}">
+                      {{- end -}}
                     {{- end -}}
                   {{- end -}}
                 {{- end -}}
-              {{- end -}}
       </div>
     </div>
     <div class="row">
@@ -27,7 +25,6 @@
         {{ .Content }}
       </div>
     </div>
-    
   </div>
 </section>
 {{ end }}

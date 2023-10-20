@@ -1,4 +1,4 @@
-<div class="div container">
+<div class="div container border">
   <nav class="navbar navbar-expand-lg navbar-light bg-body">
     <div class="container-fluid">
       <a class="navbar-brand" href="/">
@@ -15,8 +15,8 @@
             href="{{ .URL }}" {{ if eq .Params.blank true }} target="_blank" rel="noopener"{{ end }}>{{ .Name }}</a>
           </li>
           {{ end }}
-          <div class="dropdown">
-            <li class="btn-group nav-item">
+          <div class="border d-flex align-items-center">
+            <li class="btn-group nav-item px-5">
               {{ if .IsTranslated }}
               {{ range .Translations }}
               <a class="btn btn-warning btn-sm dropdown-toggle" href="{{ .Permalink }}" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ .Site.Language.LanguageName }}</a>
@@ -29,9 +29,30 @@
               {{ end }}
               {{ end }}
             </li>
-          </div>
-        </ul>       
+
+            <div>
+              <ul class="border navbar-nav me-auto mb-2 mb-lg-0">
+                {{ range .Site.Menus.secondary }}
+                <li class="nav-item">
+                  <a class=" nav-link{{ if $.IsMenuCurrent "main" . }} active" aria-current="page{{ end }}" 
+                  href="{{ .URL }}" {{ if eq .Params.blank true }} target="_blank" rel="noopener"{{ end }}>{{ .Name }}</a>
+                </li>
+                {{ end }}     
+              </ul>
+            </div>
+            
+          </div>        
+        </ul>  
       </div>    
     </div>   
   </nav>
+  <script>
+    htmx.on('click', '.dropdown-toggle', function(e) {
+      e.preventDefault();
+      htmx.ajax('GET /dropdown-menu', {}, {
+        target: '.dropdown-menu',
+        method: 'replace'
+      });
+    });
+  </script>
 </div>
