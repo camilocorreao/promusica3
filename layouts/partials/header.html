@@ -1,4 +1,4 @@
-<div class="div container border">
+<div class="div container">
   <nav class="navbar navbar-expand-lg navbar-light bg-body">
     <div class="container-fluid">
       <a class="navbar-brand" href="/">
@@ -15,7 +15,7 @@
             href="{{ .URL }}" {{ if eq .Params.blank true }} target="_blank" rel="noopener"{{ end }}>{{ .Name }}</a>
           </li>
           {{ end }}
-          <div class="border d-flex align-items-center">
+          <div class="d-flex align-items-center">
             <li class="btn-group nav-item px-5">
               {{ if .IsTranslated }}
               {{ range .Translations }}
@@ -30,29 +30,34 @@
               {{ end }}
             </li>
 
-            <div>
-              <ul class="border navbar-nav me-auto mb-2 mb-lg-0">
-                {{ range .Site.Menus.secondary }}
-                <li class="nav-item">
-                  <a class=" nav-link{{ if $.IsMenuCurrent "main" . }} active" aria-current="page{{ end }}" 
-                  href="{{ .URL }}" {{ if eq .Params.blank true }} target="_blank" rel="noopener"{{ end }}>{{ .Name }}</a>
-                </li>
-                {{ end }}     
-              </ul>
-            </div>
+            <div class="btn-group dropend">
+              {{ $currentPage := . }}
+              {{ range .Site.Menus.secondary }}
+                {{ if .HasChildren }}
+                  <div class="btn-group">
+                    <button class="btn btn-outline-secondary dropdown-toggle btn-sm" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      {{ .Pre }}<span>{{ .Name }}</span>
+                    </button>
+                    <ul class="sub-menu dropdown-menu me-auto mb-2 mb-lg-0" data-bs-toggle="dropdown" aria-labelledby="dropdownMenuLink">
+                      {{ range .Children }}
+                        <li class="{{ if $currentPage.IsMenuCurrent "secondary" . }}active{{ end }}">
+                          <a class="dropdown-item" href="{{ .URL }}">{{ .Name }}</a>
+                        </li>
+                      {{ end }}
+                    </ul>
+                  </div>
+                {{ else }}
+                  <li>
+                    <a href="{{ .URL }}">{{ .Pre }}<span>{{ .Name }}</span></a>
+                  </li>
+                {{ end }}
+              {{ end }}
+            </div>            
             
           </div>        
         </ul>  
       </div>    
     </div>   
   </nav>
-  <script>
-    htmx.on('click', '.dropdown-toggle', function(e) {
-      e.preventDefault();
-      htmx.ajax('GET /dropdown-menu', {}, {
-        target: '.dropdown-menu',
-        method: 'replace'
-      });
-    });
-  </script>
+ 
 </div>

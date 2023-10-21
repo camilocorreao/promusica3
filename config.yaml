@@ -1,11 +1,11 @@
-baseURL: http://localhost/
+baseURL: "/"
 # for xml output
 languageCode: "de-at"
 # for website
 defaultContentLanguage: "de"
 disableLanguages:
   - es
-title: proMusica
+title: proMúsica
 # alternate copyright company text
 languages:
   de:
@@ -39,6 +39,16 @@ languages:
           pageRef: /de/shop/guitars
           parent: shop
           weight: 1
+        - identifier: hermes
+          name: "Hermes Conrad"
+          pageRef: /de/shop/guitars/hermes
+          parent: guitars
+          weight: 1
+        - identifier: hubert
+          name: "Professor Hubert J. Farnsworth"
+          pageRef: /de/shop/guitars/hubert
+          parent: guitars
+          weight: 2
         - identifier: accessories
           name: Zubehör
           pageRef: /de/shop/accessories
@@ -70,13 +80,18 @@ languages:
           name: shop
           pageRef: /de/shop
           weight: 4
+      secondary:
+        - identifier: shop
+          name: Shop
+          pageRef: /shop
+          weight: 1
         - identifier: guitars
           name: Gitarren
           pageRef: /de/shop/guitars
           parent: shop
           weight: 1
         - identifier: accessories
-          name: accessories
+          name: Zubehör
           pageRef: /de/shop/accessories
           parent: shop
           weight: 2
