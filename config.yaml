@@ -3,8 +3,7 @@ baseURL: "/"
 languageCode: "de-at"
 # for website
 defaultContentLanguage: "de"
-disableLanguages:
-  - es
+disableLanguages: es
 title: proMúsica
 # alternate copyright company text
 languages:
@@ -13,95 +12,89 @@ languages:
     languageName: Deutsch
     menu:
       main:
-        - identifier: studio
-          name: Studio
+        - name: Studio
           pageRef: /
-          weight: 1
-        - identifier: about
-          name: "Über mich"
-          pageRef: /pages/about
-          weight: 2
-        - identifier: blog
-          name: Blog
-          pageRef: /blog
-          weight: 3
-        - identifier: contact
-          name: Kontakt
-          pageRef: /pages/contact
-          weight: 4
+          url: /
+          weight: 10
+        - name: Über mich
+          pageRef: about
+          url: /pages/about
+          weight: 20
+        - name: Blog
+          pageRef: blog
+          url: /blog
+          weight: 30
+        - name: Kontakt
+          pageRef: contact
+          url: /pages/contact
+          weight: 40
       secondary:
-        - identifier: shop
-          name: Shop
-          pageRef: /shop
-          weight: 1
-        - identifier: guitars
-          name: Gitarren
-          pageRef: /de/shop/guitars
+        - name: Shop
+          pageRef: Shop
+          url: /shop
+          weight: 10
+        - name: Gitarren
+          pageRef: Gitarren
+          url: /shop/guitars
           parent: shop
-          weight: 1
-        - identifier: hermes
-          name: "Hermes Conrad"
-          pageRef: /de/shop/guitars/hermes
-          parent: guitars
-          weight: 1
-        - identifier: hubert
-          name: "Professor Hubert J. Farnsworth"
-          pageRef: /de/shop/guitars/hubert
-          parent: guitars
-          weight: 2
-        - identifier: accessories
-          name: Zubehör
-          pageRef: /de/shop/accessories
+          weight: 10
+        - name: Zubehör
+          pageRef: accessories
+          url: /shop/accessories
           parent: shop
-          weight: 2
+          weight: 20
+        # - name: "Hermes Conrad"
+        #   pageRef: hermes
+        #   url: /shop/guitars/hermes
+        #   parent: guitars
+        #   weight: 1
+        # - name: "Professor Hubert J. Farnsworth"
+        #   pageRef: hubert
+        #   url: /shop/guitars/hubert
+        #   parent: guitars
+        #   weight: 2
 
   en:
     contentDir: content/en
     languageName: English
     menu:
       main:
-        - identifier: studio
-          name: studio
+        - name: studio
           pageRef: /
           weight: 1
-        - identifier: about
-          name: "about me"
+        - name: "about me"
           pageRef: /de/pages/about
           weight: 2
-        - identifier: blog
-          name: Blog
+        - name: Blog
           pageRef: /de/blog
           weight: 3
-        - identifier: contact
-          name: contact
+        - name: contact
           pageRef: /de/pages/contact
           weight: 4
-        - identifier: shop
-          name: shop
+        - name: shop
           pageRef: /de/shop
           weight: 4
       secondary:
-        - identifier: shop
-          name: Shop
-          pageRef: /shop
-          weight: 1
-        - identifier: guitars
-          name: Gitarren
-          pageRef: /de/shop/guitars
+        - name: Shop
+          pageRef: shop
+          url: /shop
+          weight: 10
+        - name: guitars
+          pageRef: guitars
+          url: /shop/guitars
           parent: shop
-          weight: 1
-        - identifier: accessories
-          name: Zubehör
-          pageRef: /de/shop/accessories
+          weight: 10
+        - name: accessories
+          pageRef: accessories
+          url: /shop/accessories
           parent: shop
-          weight: 2
+          weight: 20
   es:
     contentDir: content/es
     languageName: Español
     menu:
       main:
-        - identifier:
-          name:
+        - name:
           weight: 20
         - parent:
           weight: 40
