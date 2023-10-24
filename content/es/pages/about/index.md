@@ -1,11 +1,9 @@
 ---
-title: "Über mich"
-description: "Beschreibung über mich"
+title: "Acerca de mí"
+description: "Si uno se limita a pensar en lo que debe hacerse pierde la posibilidad de hacerlo."
 date: 2021-11-23T21:18:08+11:00
 draft: false
 subtitle: Serving the local community since 1999
-menu: main
-weight: 20
 images: [2_gitarrenunterricht.jpg]
 ---
 

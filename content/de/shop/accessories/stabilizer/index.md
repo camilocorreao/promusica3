@@ -1,9 +1,9 @@
 ---
-title: "Amy Wong-Kroker"
-categories: ["Planet Express"]
+title: "Stabilizer II New Design"
 date: 2022-01-03
-tags: ["Human"]
-images: ["AmyWong.png", "Bender_Rodriguez.png"]
+categories: ["accessories"]
+tags: [""]
+images: ["Sabilizer_II_new_design.jpg"]
 source: https://futurama.fandom.com/
 ---
 

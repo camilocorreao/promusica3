@@ -43,16 +43,11 @@ languages:
           url: /shop/accessories
           parent: shop
           weight: 20
-        # - name: "Hermes Conrad"
-        #   pageRef: hermes
-        #   url: /shop/guitars/hermes
-        #   parent: guitars
-        #   weight: 1
-        # - name: "Professor Hubert J. Farnsworth"
-        #   pageRef: hubert
-        #   url: /shop/guitars/hubert
-        #   parent: guitars
-        #   weight: 2
+        - name: Serviceleistung
+          pageRef: services
+          url: /shop/services
+          parent: shop
+          weight: 30
 
   en:
     contentDir: content/en
@@ -61,19 +56,16 @@ languages:
       main:
         - name: studio
           pageRef: /
-          weight: 1
+          weight: 10
         - name: "about me"
-          pageRef: /de/pages/about
-          weight: 2
+          pageRef: /pages/about
+          weight: 20
         - name: Blog
           pageRef: /de/blog
-          weight: 3
+          weight: 30
         - name: contact
-          pageRef: /de/pages/contact
-          weight: 4
-        - name: shop
-          pageRef: /de/shop
-          weight: 4
+          pageRef: /pages/contact
+          weight: 40
       secondary:
         - name: Shop
           pageRef: shop
@@ -94,13 +86,33 @@ languages:
     languageName: Español
     menu:
       main:
-        - name:
+        - name: estudio
+          pageRef: /
+          weight: 10
+        - name: "acerca de mí"
+          pageRef: /pages/about
           weight: 20
-        - parent:
+        - name: Blog
+          pageRef: /blog
+          weight: 30
+        - name: contact
+          pageRef: /pages/contact
           weight: 40
-          params:
-            divider: true
-    weight: 30
+      secondary:
+        - name: Shop
+          pageRef: shop
+          url: /shop
+          weight: 10
+        - name: guitars
+          pageRef: guitars
+          url: /shop/guitars
+          parent: shop
+          weight: 10
+        - name: accessories
+          pageRef: accessories
+          url: /shop/accessories
+          parent: shop
+          weight: 20
 copyright: Camilo Correa
 # controls number of pages displayed on list pages
 paginate: 5
