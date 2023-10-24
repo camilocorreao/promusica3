@@ -81,6 +81,11 @@ languages:
           url: /shop/accessories
           parent: shop
           weight: 20
+        - name: Services
+          pageRef: services
+          url: /shop/services
+          parent: shop
+          weight: 30
   es:
     contentDir: content/es
     languageName: Español
