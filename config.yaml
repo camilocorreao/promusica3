@@ -60,7 +60,7 @@ languages:
         - name: "about me"
           pageRef: /pages/about
           weight: 20
-        - name: Blog
+        - name: blog
           pageRef: /de/blog
           weight: 30
         - name: contact
@@ -97,7 +97,7 @@ languages:
         - name: "acerca de mí"
           pageRef: /pages/about
           weight: 20
-        - name: Blog
+        - name: blog
           pageRef: /blog
           weight: 30
         - name: contact
@@ -187,6 +187,14 @@ params:
   relatedPosts: 5
   recentPosts: 5
   # postTags: 10
+
+  # modules
+  module:
+    mounts:
+      - source: node_modules/bootstrap/scss
+        target: assets/scss/bootstrap
+      - source: node_modules/bootstrap/dist/js/bootstrap.min.js
+        target: assets/js/bootstrap.min.js
 
   contact:
     # https://schema.org/PostalAddress

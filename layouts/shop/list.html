@@ -20,7 +20,7 @@
                 {{- if reflect.IsSlice . -}}
                   {{- with index . 0 -}}
                     {{- with $image := $post.Resources.GetMatch . }}
-                      <img src="{{ $image.RelPermalink }}" class="img-fluid img-h-10"
+                      <img src="{{ $image.RelPermalink }}" class="img-fluid img-h-15"
                         width="{{ .Width }}" height="{{ .Height }}"
                         alt="{{ printf "Image for post %s" $post.Title }}" title="{{ $post.Title }}">
                     {{- end -}}
@@ -36,10 +36,9 @@
                 {{ .Summary }}
               </div>
               <div class="mt-auto d-flex">
-                  {{ with .ReadingTime }}
                     <span>
-                      {{ partial "svg-icon" "icons/bootstrap/clock.svg" }}
-                      {{ . }} minute{{ if gt . 1 }}s{{ end  }}
+                      {{ with .Params.preis }} {{ . }}
+                      
                     </span>
                   {{ end }}
                 {{ with .PublishDate }}
@@ -54,7 +53,7 @@
             </div>
           </div> 
         </article>
-        <hr>
+        <hr style="height: 0.1%">
         {{ end }}
         {{ if $paginator.Pages }}
         <div class="mt-3 mx-3 d-flex justify-content-center">

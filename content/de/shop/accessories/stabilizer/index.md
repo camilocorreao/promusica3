@@ -1,16 +1,15 @@
 ---
 title: "Stabilizer II New Design"
 date: 2022-01-03
-categories: ["accessories"]
-tags: [""]
+categories: [""]
+tags: ["Zubehör"]
 images: ["Sabilizer_II_new_design.jpg"]
-source: https://futurama.fandom.com/
+preis: € 20.00
 ---
 
-Amy Kroker (née Wong), Ph.D. (born November or December 2979)[1] is the wife of Kif Kroker, and a member of the Planet Express delivery service.
-
-{{< img-index "0" "Picture of Amy Kroker" >}}
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod repellendus deserunt dignissimos corporis reiciendis voluptates sapiente repudiandae necessitatibus nam qui.
-
-{{< img-index "1" "Photo of Bender" >}}
+"_I've been using Kling-on for years now and have them on most of my guitars
+to protect their varnish.
+They don't affect the sound of the instrument and offer great protection
+from wayward rasgueados, careless fingernails and general wear and tear
+the guitar has to suffer._"
+David Russell

@@ -6,9 +6,7 @@ tags: ["Luthiers"]
 price: "€ 4900.00"
 draft: false
 images: [Luis_Cepeda.jpg]
-source: https://futurama.fandom.com/
+preis: 5.300,00
 ---
-
-{{< img-index "0" "Picture of Cepeda" >}}
 
 Hermes Conrad (born July 15, 2959), the hexagonist of Futurama, is a Grade 34 Jamaican bureaucrat and the accountant at Planet Express. He is afraid to make mistakes, as this may demote him to a lower grade.

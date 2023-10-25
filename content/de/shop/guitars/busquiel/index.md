@@ -4,12 +4,12 @@ date: 2022-04-26T21:56:13-04:00
 categories: ["Guitars"]
 tags: ["Luthiers"]
 draft: false
-images: [Carlos_juan_Busquiel.jpg]
-source: https://futurama.fandom.com/
+images: [Busquiel_label.jpg]
+preis: € 5.200,00
 ---
 
-Professor Hubert J. Farnsworth (born April 9, 2841), better known as Professor Farnsworth, Professor or just Farnsworth, is the chief executive officer and a shareholder of Planet Express and the tetragonist of Futurama.
+**Carlos Juan Busquiel** wurde 1980 geboren und begann im Alter von 12 Jahren, Gitarre zu spielen, obwohl er auch Violinstudien am Konservatorium absolvierte. Später studierte er Musik und Englisch an der **Universität von Alicante** und war neun Jahre lang als Lehrer tätig.
 
-He is pushing the limits of even the 31st Century at an agе of well over 160. Professor Farnsworth is one of six living relatives of Philip J. Fry, together with his own clone, Cubert J. Farnsworth, as well as his only son by means of his sexual relations with Carol Miller while he worked for her, Igner. He has a brother named Floyd, also his parents Velma and Ned Farnsworth are still alive. He is Fry's nephew thirty times removed.
+Sein **Interesse am Instrumentenbau** begann, als er sich autodidaktisch an den Bau einer E-Gitarre wagte. Dies führte ihn in die Welt des Instrumentenbaus ein. Er baute auch eine akustische Violine nach dem Vorbild von Stradivari. Durch eine Begegnung mit dem Gitarrenbauer **Rafael López Porras** in Cádiz wurde er in die Kunst des Gitarrenbaus eingeführt. Später studierte er bei Meister **José Luis Romanillos** und entwickelte das Konzept der "spanischen Gitarre" basierend auf traditionellen Bauweisen von **Antonio de Torres**.
 
-Though never stated, it's likely he is the descendant of Yancy Fry, Jr, through Yancy's only known child Philip J. Fry II named after his uncle. However, since it's revealed that Fry is his own grandfather and therefore Yancy's grandfather, as well as Philip II's great-grandfather, due to his time-traveling exploits, Professor Farnsworth is logically, in fact, Fry's direct descendant via his brother/grandson/great-uncle Yancy Jr. and nephew/great-grandson Philip II. So the six include: himself, Cubert, Igner, Floyd, Velma, and Ned.
+Busquiel hatte auch die Gelegenheit, wertvolle Instrumente von historischen Baumeistern zu studieren. Basierend auf diesem Wissen entwickelte er verschiedene Gitarrenmodelle, die von Gitarristen weltweit geschätzt werden.

@@ -13,4 +13,4 @@ Amy Kroker (née Wong), Ph.D. (born November or December 2979)[1] is the wife of
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod repellendus deserunt dignissimos corporis reiciendis voluptates sapiente repudiandae necessitatibus nam qui.
 
-{{< img-index "1" "Photo of Bender" >}}
+{{< img-index "1" "Photo of XXX" >}}

@@ -21,10 +21,9 @@
         {{ end }}
       </div>
       <div class="col-md-6 d-flex">
-        {{ with .ReadingTime }}
+   
         <span class="ms-md-auto">
-          {{ partial "svg-icon" "icons/bootstrap/clock.svg" }}
-          {{ . }} minute{{ if gt . 1 }}s{{ end }}
+          {{ with .Params.preis }} {{ . }}
         </span>
         {{ end }}
       </div>
@@ -70,7 +69,7 @@
         {{- if reflect.IsSlice . -}}
         {{- with index . 0 -}}
         {{- with $image := $post.Resources.GetMatch . }}
-        <img src="{{ $image.RelPermalink }}" class="img-fluid post-summary__image" 
+        <img src="{{ $image.RelPermalink }}" class="img-fluid img-h-25 post-summary__image" 
         width="{{ .Width }}" height="{{ .Height }}" 
         alt="{{ printf " Image for post %s" $post.Title }}" title="{{ $post.Title }}">
         {{- end -}}
