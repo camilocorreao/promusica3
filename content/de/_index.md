@@ -8,7 +8,7 @@ images: [3_gitarrenunterricht.jpg]
 
 {{< img-index "1" "das Studio in der Böcklinstrasse" >}}
 
-### Herzlich willkommen!
+#### Herzlich willkommen!
 
 <br>
 proMúsica Studio bietet Musikern, Podcastern und Produzenten einen professionellen Ort zum

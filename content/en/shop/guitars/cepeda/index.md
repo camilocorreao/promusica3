@@ -1,12 +1,11 @@
 ---
 title: "Luis Cepeda"
 date: 2022-04-26T21:56:13-04:00
-price: "€ 4900.00"
 categories: ["Guitars"]
 tags: ["Luthiers"]
 draft: false
 images: [Luis_Cepeda.jpg]
-source: https://futurama.fandom.com/
+price: "€ 4.900,00"
 ---
 
 {{< img-index "0" "Picture of Cepeda" >}}

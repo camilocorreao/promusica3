@@ -1,0 +1,63 @@
+baseURL: "/"
+# for xml output
+languageCode: "de-at"
+# for website
+defaultContentLanguage: "de"
+disableLanguages: es
+title: proMúsica
+# alternate copyright company text
+copyright: Camilo Correa
+# controls number of pages displayed on list pages
+paginate: 5
+# controls the summary length on list pages
+summaryLength: 10
+# this is required so that Hugo will render markdown to HTML
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    anchorLineNos: false
+    codeFences: true
+    guessSyntax: false
+    hl_Lines: ""
+    hl_inline: false
+    lineAnchors: ""
+    lineNoStart: 1
+    lineNos: false
+    lineNumbersInTable: true
+    noClasses: false # false needs a stylesheet
+    noHl: false
+    style: monokai
+    tabWidth: 4
+# config for related posts
+
+related:
+  # pages which are newer than the current page
+  includeNewer: true
+  # seach terms
+  indices:
+    - applyFilter: true
+      cardinalityThreshold: 0
+      name: categories
+      pattern: ""
+      toLower: true
+      type: basic
+      weight: 100
+    - applyFilter: false
+      cardinalityThreshold: 0
+      name: date
+      pattern: ""
+      toLower: false
+      type: basic
+      weight: 10
+    - applyFilter: true
+      cardinalityThreshold: 0
+      name: tags
+      pattern: ""
+      toLower: true
+      type: basic
+      weight: 80
+  threshold: 80
+  # lowercase search query
+  toLower: true

@@ -1,7 +1,7 @@
 ---
 title: "Bender Bending Rodriguez"
 categories: ["Planet Express"]
-date: 2021-03-03
+date: 2021-12-17T13:31:12+11:00
 tags: ["Robot"]
 images: [Bender_Rodriguez.png]
 preis: € 100.00

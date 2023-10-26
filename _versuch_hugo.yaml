@@ -1,0 +1,4 @@
+include:
+  - config/general.yaml
+  - config/languages.yaml
+  - config/params.yaml

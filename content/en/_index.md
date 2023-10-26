@@ -1,6 +1,6 @@
 ---
 title: "Studio"
-description: "Klang und Ruhe"
+description: "Sound and Quiet"
 date: 2021-11-16T23:04:08+11:00
 draft: false
 images: [3_gitarrenunterricht.jpg]
@@ -8,7 +8,8 @@ images: [3_gitarrenunterricht.jpg]
 
 {{< img-index "1" "das Studio in der Böcklinstrasse" >}}
 
-Herzlich willkommen!
+#### Herzlich willkommen!
+
 <br>
 proMúsica Studio bietet Musikern, Podcastern und Produzenten einen professionellen Ort zum
 

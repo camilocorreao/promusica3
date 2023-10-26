@@ -1,0 +1,66 @@
+<div class="div container">
+    <nav class="ms-5 navbar fixed-top navbar-expand-lg navbar-light bg-body">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">
+          <img src="/img/logo.png" class="logo" alt="proMusica">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            {{ range .Site.Menus.main }}
+            <li class="nav-item">
+              <a class="nav-link{{ if $.IsMenuCurrent "main" . }} active" aria-current="page{{ end }}" 
+              href="{{ .URL }}" {{ if eq .Params.blank true }} target="_blank" rel="noopener"{{ end }}>{{ .Name }}</a>
+            </li>
+            {{ end }}
+            <div class="d-flex align-items-center">
+              <li class="btn-group nav-item px-5">
+                {{ if .IsTranslated }}
+                {{ range .Translations }}
+                <a class="btn btn-warning btn-sm" href="{{ .Permalink }}" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ .Site.Language.LanguageName }}</a>
+                {{ end }}
+                {{ else }}
+                {{ if eq .Site.Language.Lang "de" }}
+                <a class="dropdown-item" href="#">Deutsch</a>
+                {{ else }}
+                <a class="dropdown-item" href="#">English</a>
+                {{ end }}
+                {{ end }}
+              </li>
+  
+    
+              <div class="dropdown dropend">
+                {{ $currentPage := . }}
+                {{ range .Site.Menus.secondary }}
+                {{ if .HasChildren }}
+                  <li class="">
+                    <a class="btn btn-outline-warning dropdown-toggle btn-sm {{ if or ($currentPage.IsMenuCurrent "secondary" .) ($currentPage.HasMenuCurrent "secondary" .) }}is-active{{ end }}" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false" href="{{ .URL }}">
+                    {{ .Name }}
+                    </a>
+                    
+                      <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        {{ range .Children }}
+                          <li class="">
+                            <a
+                            class="dropdown-item me-auto mb-2 mb-lg-0 {{ if $currentPage.IsMenuCurrent "secondary" . }}is-active{{ end }}"
+                            href="{{ .URL }}">
+                              {{ .Name }}
+                            </a>
+                          </li>
+                        {{ end }}
+                      </ul>
+                    {{ end }}
+                  </li>
+                {{ end }}
+              </div>
+           
+            </div>        
+          </ul>  
+        </div>
+      </div>   
+    </nav>
+   
+  </div>
+  

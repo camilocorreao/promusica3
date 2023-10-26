@@ -1,10 +1,10 @@
 ---
 title: "Miguel Duarte"
 categories: ["Guitars"]
-date: 2021-03-03
+date: 2023-09-03T16:29:51+02:00
 tags: ["Luthiers"]
 images: ["Miguel_Duarte.jpg"]
-source:
+price: "€ 4.200.00"
 ---
 
 Igner (born December 13, 2979) is the youngest and most pitiful of Mom's three sons. His older half brothers are Walt and Larry. Like them he owns a 0.1% share in MomCorp. His intelligence is extremely low and he often displays symptoms of mental disability. He speaks in a moronic voice, and is often found saddled with the worst tasks by his brothers: being bullied into wearing Mom's bra and playing the part of Pamela Anderson's body for her head in a jar. His immaturity means he gets disgusted easy and he has a tendency to repeat what he hears without full comprehension, for example: in Bender's Game, Igner repeats the phrase "We're owl exterminators" twice and pronounces exterminators wrong.

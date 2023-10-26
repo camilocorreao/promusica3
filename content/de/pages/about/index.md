@@ -1,6 +1,6 @@
 ---
 title: "Über mich"
-description: "Beschreibung über mich"
+description: ' "Wenn man sich darauf beschränkt, darüber nachzudenken, was getan werden muss, verliert man die Möglichkeit, es zu tun." Shinichi Suzuki '
 date: 2021-11-23T21:18:08+11:00
 draft: false
 subtitle: Serving the local community since 1999
@@ -8,8 +8,16 @@ weight: 20
 images: [2_gitarrenunterricht.jpg]
 ---
 
-Ich bin Diplom-Absolvent der Konzertgitarre von der MDW, der ehemaligen Hochschule für Musik und darstellende Kunst in Wien, unter der Leitung von Professor Walter Würdinger. Nach einer langen Pause habe ich beschlossen, meine Leidenschaft für die Gitarre wieder aufzunehmen und dabei das proMúsica Studio geplant, ausgebaut und zum Klingen gebracht. Ich habe das Wissen, das ich in den letzten Jahren über Linux und die Open-Source-Bewegung erworben habe, angewendet, Hard- und Software installiert und konfiguriert sowie die Akustik im Raum angepasst.
+Hey, Leute!
 
 Ich unterrichte mit grosse Leidenschaft und freue mich, mit euch, diesen Weg weiter zu gehen.
 
-{{< img-index "1" "das Studio in der Böcklinstrasse" >}}
+Nach einer echt langen Pause habe ich endlich den Entschluss gefasst, meine Gitarre aus dem Schrank zu holen und wieder loszulegen. Und wisst ihr was? Es war die beste Entscheidung ever!
+
+Neben meiner täglichen Gitarren-Routine habe ich mir auch noch ein kleines Projekt vorgenommen – das proMúsica Studio. Ich habe mir vorgenommen, meinen Raum zu einem richtigen Wohlfühl-Studio für Musik zu machen.
+
+Aber das ist noch nicht alles! Ich habe all das Wissen, das ich mir in den letzten Jahren über Linux und die Open-Source-Bewegung angeeignet habe, eingesetzt. Das bedeutet, ich habe nicht nur Gitarre gespielt, sondern auch Hardware und Software installiert und konfiguriert und die Akustik im Raum angepasst. Auch diese Webseite habe ich ENDLICH fertig gemacht (wird aber nie fertig...). Es ist echt cool, was man alles mit dieser Technologie machen kann.
+
+Also, wenn ihr ebenfalls leidenschaftliche Musiker seid oder einfach nur neugierig auf coole Projekte, meldet euch bei mir.
+
+{{< img-index "0" "das Studio in der Böcklinstrasse" >}}

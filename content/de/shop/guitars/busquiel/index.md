@@ -5,7 +5,7 @@ categories: ["Guitars"]
 tags: ["Luthiers"]
 draft: false
 images: [Busquiel_label.jpg]
-preis: € 5.200,00
+price: "€ 4.900,00"
 ---
 
 **Carlos Juan Busquiel** wurde 1980 geboren und begann im Alter von 12 Jahren, Gitarre zu spielen, obwohl er auch Violinstudien am Konservatorium absolvierte. Später studierte er Musik und Englisch an der **Universität von Alicante** und war neun Jahre lang als Lehrer tätig.
