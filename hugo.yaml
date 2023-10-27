@@ -1,9 +1,7 @@
 baseURL: "/"
 # for xml output
-languageCode: "de-at"
 # for website
-defaultContentLanguage: "de"
-disableLanguages: es
+defaultContentLanguage: de
 title: proMúsica
 # alternate copyright company text
 copyright: Camilo Correa
@@ -50,7 +48,11 @@ related:
 languages:
   de:
     contentDir: content/de
+    disabled: false
+    languageCode: de-DE
     languageName: Deutsch
+    params:
+      color: blue # as an example of custom params
     menu:
       main:
         - name: Studio
@@ -92,6 +94,8 @@ languages:
 
   en:
     contentDir: content/en
+    disabled: false
+    languageCode: en-US
     languageName: English
     menu:
       main:
@@ -129,6 +133,8 @@ languages:
           weight: 30
   es:
     contentDir: content/es
+    disabled: true
+    languageCode: es-ES
     languageName: Español
     menu:
       main:

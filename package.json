@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "exec-bin node_modules/.bin/hugo/hugo server --gc --disableFastRender",
     "dev:preview": "npm run dev -- --buildDrafts --buildFuture",
-    "build": "exec-bin node_modules/.bin/hugo/hugo -v --gc --minify --cleanDestinationDir",
+    "build": "exec-bin node_modules/.bin/hugo/hugo --logLevel info --gc --minify --cleanDestinationDir",
     "renderToDisk": "exec-bin node_modules/.bin/hugo/hugo server --gc --disableFastRender --renderToDisk --cleanDestinationDir ",
     "renderToDisk:preview": "npm run renderToDisk -- --buildDrafts --buildFuture ",
     "renderToDisk:production": "npm run renderToDisk -- --minify --environment production",
