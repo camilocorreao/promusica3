@@ -1,11 +1,11 @@
 baseURL: "/"
 # for xml output
 # for website
-defaultContentLanguage: de
 title: proMúsica
 # alternate copyright company text
 copyright: Camilo Correa
 # controls number of pages displayed on list pages
+defaultContentLanguage: de
 paginate: 5
 # controls the summary length on list pages
 summaryLength: 10
@@ -49,7 +49,7 @@ languages:
   de:
     contentDir: content/de
     disabled: false
-    languageCode: de-DE
+    languageCode: de-de
     languageName: Deutsch
     params:
       color: blue # as an example of custom params
@@ -91,11 +91,10 @@ languages:
           url: /shop/services
           parent: shop
           weight: 30
-
   en:
     contentDir: content/en
     disabled: false
-    languageCode: en-US
+    languageCode: en-us
     languageName: English
     menu:
       main:
@@ -134,7 +133,7 @@ languages:
   es:
     contentDir: content/es
     disabled: true
-    languageCode: es-ES
+    languageCode: es-es
     languageName: Español
     menu:
       main:
