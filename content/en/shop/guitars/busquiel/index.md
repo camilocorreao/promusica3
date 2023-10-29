@@ -4,7 +4,7 @@ date: 2022-04-26T21:56:13-04:00
 categories: ["Guitars"]
 tags: ["Luthiers"]
 draft: false
-images: [Carlos_juan_Busquiel.jpg]
+images: [Busquiel_label.jpg, Carlos_juan_Busquiel.jpg]
 price: 4.900,00
 ---
 

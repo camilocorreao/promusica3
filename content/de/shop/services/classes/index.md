@@ -5,7 +5,7 @@ price: "€ 65.00 / Stunde"
 categories: ["unterricht"]
 tags: ["Gitarre"]
 draft: false
-images: [Cast_futurama_proffarnsworth.jpg]
+images: [5_gitarrenunterricht.jpg]
 source: https://futurama.fandom.com/
 ---
 
