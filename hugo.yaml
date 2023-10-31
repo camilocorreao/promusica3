@@ -109,6 +109,10 @@ languages:
         - name: "about me"
           pageRef: /pages/about
           weight: 20
+        - name: offer
+          pageRef: services
+          url: /services
+          weight: 30
         - name: blog
           pageRef: /blog
           weight: 40
