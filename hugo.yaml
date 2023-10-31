@@ -76,9 +76,14 @@ languages:
           pageRef: Shop
           url: /shop
           weight: 10
-        - name: Gitarren
-          pageRef: Gitarren
-          url: /shop/guitars
+        - name: Konzertgitarren
+          pageRef: concert-guitars
+          url: /shop/concert-guitars
+          parent: shop
+          weight: 10
+        - name: Studiogitarren
+          pageRef: studio-guitars
+          url: /shop/studio-guitars
           parent: shop
           weight: 10
         - name: Zubehör
