@@ -50,7 +50,7 @@ languages:
     contentDir: content/de
     disabled: false
     languageCode: de-de
-    languageName: DE
+    languageName: Deutsch
     params:
       color: blue # as an example of custom params
     menu:
@@ -79,18 +79,18 @@ languages:
         - name: Konzertgitarren
           pageRef: concert-guitars
           url: /shop/concert-guitars
-          parent: shop
+          parent: Shop
           weight: 10
         - name: Studiogitarren
           pageRef: studio-guitars
           url: /shop/studio-guitars
-          parent: shop
-          weight: 10
+          parent: Shop
+          weight: 20
         - name: Zubehör
           pageRef: accessories
           url: /shop/accessories
-          parent: shop
-          weight: 20
+          parent: Shop
+          weight: 30
       tertiary:
         - name: Kontakt
           pageRef: contact
@@ -100,7 +100,7 @@ languages:
     contentDir: content/en
     disabled: false
     languageCode: en-us
-    languageName: EN
+    languageName: English
     menu:
       main:
         - name: studio
@@ -121,16 +121,21 @@ languages:
           pageRef: shop
           url: /shop
           weight: 10
-        - name: guitars
-          pageRef: guitars
-          url: /shop/guitars
+        - name: concert guitars
+          pageRef: concert-guitars
+          url: /shop/concert-guitars
           parent: shop
           weight: 10
+        - name: studio guitars
+          pageRef: studio-guitars
+          url: /shop/studio-guitars
+          parent: shop
+          weight: 20
         - name: accessories
           pageRef: accessories
           url: /shop/accessories
           parent: shop
-          weight: 20
+          weight: 30
       tertiary:
         - name: contact
           pageRef: contact
