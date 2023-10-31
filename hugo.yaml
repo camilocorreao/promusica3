@@ -50,7 +50,7 @@ languages:
     contentDir: content/de
     disabled: false
     languageCode: de-de
-    languageName: Deutsch
+    languageName: DE
     params:
       color: blue # as an example of custom params
     menu:
@@ -66,11 +66,11 @@ languages:
         - name: Blog
           pageRef: blog
           url: /blog
-          weight: 30
-        - name: Kontakt
-          pageRef: contact
-          url: /pages/contact
           weight: 40
+        - name: Angebot
+          pageRef: services
+          url: /services
+          weight: 30
       secondary:
         - name: Shop
           pageRef: Shop
@@ -86,16 +86,16 @@ languages:
           url: /shop/accessories
           parent: shop
           weight: 20
-        - name: Serviceleistung
-          pageRef: services
-          url: /shop/services
-          parent: shop
-          weight: 30
+      tertiary:
+        - name: Kontakt
+          pageRef: contact
+          url: /pages/contact
+          weight: 10
   en:
     contentDir: content/en
     disabled: false
     languageCode: en-us
-    languageName: English
+    languageName: EN
     menu:
       main:
         - name: studio
@@ -106,10 +106,11 @@ languages:
           weight: 20
         - name: blog
           pageRef: /blog
-          weight: 30
-        - name: contact
-          pageRef: /pages/contact
           weight: 40
+        - name: offer
+          pageRef: services
+          url: /services
+          weight: 30
       secondary:
         - name: Shop
           pageRef: shop
@@ -125,11 +126,12 @@ languages:
           url: /shop/accessories
           parent: shop
           weight: 20
-        - name: Services
-          pageRef: services
-          url: /shop/services
-          parent: shop
-          weight: 30
+      tertiary:
+        - name: contact
+          pageRef: contact
+          url: /pages/contact
+          weight: 10
+
   es:
     contentDir: content/es
     disabled: true

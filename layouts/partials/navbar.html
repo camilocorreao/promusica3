@@ -29,8 +29,13 @@
                 {{ end }}
                 {{ end }}
               </li>
+
+              <li class="btn-group nav-item px-5">
+                {{ range .Site.Menus.tertiary }}
+                <a class="btn btn-outline-warning btn-sm" href="{{ .URL }}" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ .Name }}</a>
+                {{ end }}
+              </li>
   
-    
               <div class="dropdown dropend">
                 {{ $currentPage := . }}
                 {{ range .Site.Menus.secondary }}
@@ -39,7 +44,6 @@
                     <a class="btn btn-outline-warning dropdown-toggle btn-sm {{ if or ($currentPage.IsMenuCurrent "secondary" .) ($currentPage.HasMenuCurrent "secondary" .) }}is-active{{ end }}" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false" href="{{ .URL }}">
                     {{ .Name }}
                     </a>
-                    
                       <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                         {{ range .Children }}
                           <li class="">
@@ -55,7 +59,7 @@
                   </li>
                 {{ end }}
               </div>
-           
+
             </div>        
           </ul>  
         </div>
