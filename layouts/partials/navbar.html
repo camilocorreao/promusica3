@@ -16,7 +16,7 @@
             </li>
             {{ end }}
             <div class="d-flex align-items-center">
-              <li class="btn-group nav-item px-5">
+              <li class="btn-group nav-item px-3 ms-5">
                 {{ if .IsTranslated }}
                 {{ range .Translations }}
                 <a class="btn btn-outline-warning btn-sm" href="{{ .Permalink }}" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ .Site.Language.LanguageName }}</a>
@@ -30,18 +30,14 @@
                 {{ end }}
               </li>
 
-              <li class="btn-group nav-item px-3">
-                {{ range .Site.Menus.tertiary }}
-                <a class="btn btn-outline-success btn-sm" href="{{ .URL }}" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ .Name }}</a>
-                {{ end }}
-              </li>
+              
   
               <div class="dropdown dropend">
                 {{ $currentPage := . }}
                 {{ range .Site.Menus.secondary }}
                 {{ if .HasChildren }}
                   <li class="">
-                    <a class="btn btn-outline-warning dropdown-toggle btn-sm {{ if or ($currentPage.IsMenuCurrent "secondary" .) ($currentPage.HasMenuCurrent "secondary" .) }}is-active{{ end }}" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false" href="{{ .URL }}">
+                    <a class="btn btn-outline-warning dropdown-toggle btn-sm px-3 ms-4 {{ if or ($currentPage.IsMenuCurrent "secondary" .) ($currentPage.HasMenuCurrent "secondary" .) }}is-active{{ end }}" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false" href="{{ .URL }}">
                     {{ .Name }}
                     </a>
                       <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -59,6 +55,12 @@
                   </li>
                 {{ end }}
               </div>
+
+              <li class="btn-group nav-item px-3 ms-4">
+                {{ range .Site.Menus.tertiary }}
+                <a class="btn btn-outline-success btn-sm" href="{{ .URL }}" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ .Name }}</a>
+                {{ end }}
+              </li>
 
             </div>        
           </ul>  
