@@ -5,7 +5,7 @@ categories: ["Song"]
 tags: ["SängerIn"]
 draft: false
 images: []
-source: https://futurama.fandom.com/
+mp4_url: /videos/Diego_y_Natalia.mp4
 ---
 
 {{< youtube id="lUmQDJPgL3U" >}}

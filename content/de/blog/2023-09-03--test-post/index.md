@@ -7,6 +7,9 @@ tags: [human]
 images: [AmyWong.png]
 ---
 
+<iframe src="//player.bilibili.com/player.html?bvid=BV1jz4y1f7yo&page=1&high_quality=1&danmaku=0"
+        scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem voluptatibus aperiam ab distinctio? Quia aliquam, laudantium numquam saepe sit, ipsa aliquid magni doloremque fugit asperiores ullam illo, esse eius necessitatibus quaerat sint. Tempore, veniam distinctio. Natus libero accusantium quos vel.
 
 {{< img-index "0" "Test Post Picture" >}}
