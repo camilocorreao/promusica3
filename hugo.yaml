@@ -64,14 +64,15 @@ languages:
           pageRef: about
           url: /pages/about
           weight: 20
-        - name: Blog
-          pageRef: blog
-          url: /blog
-          weight: 40
         - name: Angebot
           pageRef: services
           url: /services
           weight: 30
+        - name: Blog
+          pageRef: blog
+          url: /blog
+          weight: 40
+
       secondary:
         - name: Shop
           pageRef: Shop
@@ -111,21 +112,20 @@ languages:
       main:
         - name: studio
           pageRef: /
+          url: /
           weight: 10
         - name: "about me"
-          pageRef: /pages/about
+          pageRef: about
+          url: /pages/about
           weight: 20
         - name: offer
           pageRef: services
           url: /services
           weight: 30
         - name: blog
-          pageRef: /blog
+          pageRef: blog
+          url: /blog
           weight: 40
-        - name: offer
-          pageRef: services
-          url: /services
-          weight: 30
       secondary:
         - name: Shop
           pageRef: shop
@@ -134,18 +134,23 @@ languages:
         - name: concert guitars
           pageRef: concert-guitars
           url: /shop/concert-guitars
-          parent: shop
+          parent: Shop
           weight: 10
         - name: studio guitars
           pageRef: studio-guitars
           url: /shop/studio-guitars
-          parent: shop
+          parent: Shop
           weight: 20
+        - name: Dowina
+          pageRef: Dowina
+          url: /shop/dowina
+          parent: Shop
+          weight: 30
         - name: accessories
           pageRef: accessories
           url: /shop/accessories
-          parent: shop
-          weight: 30
+          parent: Shop
+          weight: 40
       tertiary:
         - name: contact
           pageRef: contact
