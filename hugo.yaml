@@ -87,11 +87,16 @@ languages:
           url: /shop/studio-guitars
           parent: Shop
           weight: 20
+        - name: Dowina
+          pageRef: Dowina
+          url: /shop/dowina
+          parent: Shop
+          weight: 30
         - name: Zubehör
           pageRef: accessories
           url: /shop/accessories
           parent: Shop
-          weight: 30
+          weight: 40
       tertiary:
         - name: Kontakt
           pageRef: contact

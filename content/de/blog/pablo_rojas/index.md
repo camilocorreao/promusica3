@@ -1,11 +1,11 @@
 ---
-title: "Bender Bending Rodriguez"
-categories: ["Planet Express"]
+title: "Pablo Rojas"
+categories: ["Piano"]
 date: 2021-03-03
-tags: ["Robot"]
+tags: ["Bach"]
 images: [Bender_Rodriguez.png]
-source: https://futurama.fandom.com/
 ---
+
 Bender Bending Rodríguez, (born September 4, 2996), designated Bending Unit 22, and commonly known as Bender, is a bending unit created by a division of MomCorp in Tijuana, Mexico, and his serial number is 2716057.[1] His mugshot id number is 01473. He is Fry's best friend.
 
 Bender drinks copious amounts of alcohol to recharge his fuel cells, while displaying symptoms similar to intoxication when he stops drinking, even sporting "five o'clock rust" around his mouth area.

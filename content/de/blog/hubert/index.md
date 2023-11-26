@@ -6,7 +6,6 @@ categories: ["Planet Express"]
 tags: ["Human"]
 draft: false
 images: [Cast_futurama_proffarnsworth.jpg]
-source: https://futurama.fandom.com/
 ---
 
 Professor Hubert J. Farnsworth (born April 9, 2841), better known as Professor Farnsworth, Professor or just Farnsworth, is the chief executive officer and a shareholder of Planet Express and the tetragonist of Futurama.
