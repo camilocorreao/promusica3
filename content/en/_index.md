@@ -8,17 +8,18 @@ images: [3_gitarrenunterricht.jpg]
 
 {{< img-index "1" "das Studio in der Böcklinstrasse" >}}
 
-#### Herzlich willkommen!
+#### Welcome!
 
 <br>
-proMúsica Studio bietet Musikern, Podcastern und Produzenten einen professionellen Ort zum
+proMúsica Studio offers musicians, podcasters and producers a professional place to
 
-- **Aufnehmen**,
-- **Produzieren von Ton- und Videoinhalten** und zu
-- **Proben**
+- **record**,
+- **producing sound and video content** and for
+- **rehearsals**
 
-Ausgestattet mit einem **Feurich Flügel 179 Dynamic II** und einer guten Akustik, bietet das Studio eine ruhige Lage und alle Annehmlichkeiten für die Pause.
+Equipped with a Feurich 179 Dynamic II grand piano and great acoustics, the studio offers a quiet location and all the amenities you need for a break.
 
-- **Instrumentalunterricht** wird ebenfalls angeboten.
+- **Instrumental lessons** are also offered.
 
-Das Studio ist sehr nah am Prater, dem schönsten grünen Park in Wien und dem erneuerten und verbreiterten Erdberger Steg. Dies ist ideal für Foto- und Videoaufnahmen im Freien. Bis Bald!
+The studio is very close to the Prater, the most beautiful green park in Vienna and the renewed and widened Erdberger Steg. This is ideal for outdoor photo and video shoots.<br>
+See you soon!

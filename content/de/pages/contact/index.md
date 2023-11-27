@@ -20,14 +20,14 @@ form:
       placeholder: Name
       minlength: 2
       required: true
-      invalidFeedback: Please enter name
+      invalidFeedback: Bitte geben Sie Ihren Namen ein
     - id: contact-email
       col: col-md-6
       name: email
       type: email
       placeholder: Email Address
       required: true
-      invalidFeedback: Please enter email address
+      invalidFeedback: Bitte geben Sie Ihre E-Mail-Adresse ein
     - id: contact-phone
       col: col-md-6
       name: phone
@@ -35,7 +35,7 @@ form:
       placeholder: Phone Number
       minlength: 8
       required: true
-      invalidFeedback: Please enter phone number
+      invalidFeedback: Bitte Telefonnummer eingeben
     - id: contact-subject
       col: col-md-6
       name: subject
@@ -43,7 +43,7 @@ form:
       placeholder: Subject
       minlength: 2
       required: true
-      invalidFeedback: Please enter message subject
+      invalidFeedback: Bitte geben Sie den Betreff der Nachricht ein
     - id: contact-message
       col: col-12
       name: message
@@ -52,7 +52,7 @@ form:
       minlength: 6
       rows: 6
       required: true
-      invalidFeedback: Please enter message.
+      invalidFeedback: Bitte Nachricht eingeben.
 ---
 
 You can contact us on the details below, or simply fill in the contact form to the right.

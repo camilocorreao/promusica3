@@ -114,11 +114,11 @@ languages:
           pageRef: /
           url: /
           weight: 10
-        - name: "about me"
+        - name: "about-me"
           pageRef: about
           url: /pages/about
           weight: 20
-        - name: offer
+        - name: offers
           pageRef: services
           url: /services
           weight: 30

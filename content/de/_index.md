@@ -22,4 +22,4 @@ Ausgestattet mit einem **Feurich Flügel 179 Dynamic II** und einer guten Akusti
 
 - **Instrumentalunterricht** wird ebenfalls angeboten.
 
-Das Studio ist sehr nah am Prater, dem schönsten grünen Park in Wien und dem erneuerten und verbreiterten Erdberger Steg. Dies ist ideal für Foto- und Videoaufnahmen im Freien. Bis Bald!
+Das Studio ist sehr nah am Prater, dem schönsten grünen Park in Wien und dem erneuerten und verbreiterten Erdberger Steg. Dies ist ideal für Foto- und Videoaufnahmen im Freien.<br> Bis Bald!
