@@ -6,7 +6,7 @@ categories: ["unterricht"]
 tags: ["Gitarre"]
 draft: false
 images: [5_gitarrenunterricht.jpg]
-source: https://futurama.fandom.com/
+source: https://www.promusica.co/
 ---
 
 - It's best if you come to my studio and learn directly from me about the nature and style of my lessons.

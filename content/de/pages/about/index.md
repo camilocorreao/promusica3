@@ -20,4 +20,4 @@ Aber das ist noch nicht alles! Ich habe all das Wissen, das ich mir in den letzt
 
 Also, wenn ihr ebenfalls leidenschaftliche Musiker seid oder einfach nur neugierig auf coole Projekte, meldet euch bei mir.
 
-{{< img-index "0" "das Studio in der Böcklinstrasse" >}}
+<!-- {{< img-index "0" "das Studio in der Böcklinstrasse" >}} -->

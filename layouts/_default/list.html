@@ -8,7 +8,7 @@
           {{- $paginator = .Paginate (where .Site.RegularPages "Type" "posts" )}}
         {{- else -}}
           {{- $paginator = .Paginator -}}
-          {{ partial "title" . }}
+          <!-- {{ partial "title" . }} -->
         {{ end }}
         {{ .Content | markdownify }}
         {{ range $paginator.Pages }}
