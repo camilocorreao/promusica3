@@ -1,9 +1,9 @@
 ---
-title: "Gitarrenunterricht"
+title: "guitar lessons"
 date: 2022-04-26T21:56:13-04:00
 price: "€ 45.00 / Stunde"
-categories: ["unterricht"]
-tags: ["Gitarre"]
+categories: ["lessons"]
+tags: ["learning"]
 draft: false
 images: [5_gitarrenunterricht.jpg]
 source: https://www.promusica.co/

@@ -5,7 +5,7 @@ categories: ["Guitars"]
 tags: ["Luthiers"]
 draft: false
 images: [Luis_Cepeda.jpg]
-price: "€ 4.900,00"
+price: "€ 5.900,00"
 ---
 
 "Seit fast vier Jahrzehnten baue ich Gitarren und erforsche leidenschaftlich die Geschichte und Entwicklung dieses wunderbaren Instruments. Es ist für mich ein entscheidender Moment in der Evolution der Gitarre.

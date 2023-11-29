@@ -1,5 +1,5 @@
 ---
-title: "Podcast"
+title: "podcast"
 description: ...just you and your voice
 categories: ["podcast"]
 date: 2021-03-03

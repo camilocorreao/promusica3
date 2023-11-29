@@ -1,5 +1,5 @@
 ---
-title: "Musik Aufnehmen"
+title: "recording"
 description: Post-production
 categories: ["Recording"]
 date: 2021-03-03

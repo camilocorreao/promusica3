@@ -1,8 +1,8 @@
 ---
-title: "Proberaum"
-categories: ["Democratic Order of Planets"]
+title: "rehearsal"
+categories: ["Proberaum"]
 date: 2021-03-03
-tags: ["amphibiosans"]
+tags: ["rehearsal"]
 images: ["probe1.jpg"]
 source: https://www.promusica.co
 ---

@@ -1,9 +1,9 @@
 ---
 title: "Podcast"
 description: ...nur Sie und Ihre Stimme.
-categories: ["MomCorp"]
+categories: ["Podcast"]
 date: 2021-03-03
-tags: ["human"]
+tags: ["Podcast"]
 images: ["0_ACR_Podcast.jpg"]
 source: https://futurama.fandom.com/
 ---
