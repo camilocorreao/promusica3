@@ -2,7 +2,7 @@
 title: "CLE-999"
 categories: ["Dowina"]
 date: 2021-03-03
-tags: ["classic"]
+tags: ["Classic"]
 images: ["CLE-999-front.jpeg"]
 price: 563,00
 ---

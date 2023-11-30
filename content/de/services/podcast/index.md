@@ -5,7 +5,7 @@ categories: ["Podcast"]
 date: 2021-03-03
 tags: ["Podcast"]
 images: ["0_ACR_Podcast.jpg"]
-source: https://futurama.fandom.com/
+source: https://www.promusica.co/
 ---
 
 Suchen Sie das perfekte Studio für die Realisierung Ihres Podcasts? Dann sind Sie bei proMúsica genau richtig! Wir bieten Ihnen nicht nur die beste Akustik, sondern auch hochwertige Mikrofone, um sicherzustellen, dass Ihre Stimme klar und deutlich übermittelt wird. Unsere modernste Software und Hardware garantieren eine makellose Tonqualität.

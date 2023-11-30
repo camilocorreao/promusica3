@@ -54,22 +54,15 @@
         {{ end }}
       </div>
     </div>
-    <div class="row">
-      <div class="col-md-6">
-
-      </div>
-      <div class="col-md-6">
-
-      </div>
-    </div>
-    <div class="row pb-3">
-      <div class="col">
+  <div class="container text-start">
+    <div class="row mx-auto">
+      <div class="col-md-6 align-self-center">
         {{- $post := . -}}
         {{- with .Params.images -}}
         {{- if reflect.IsSlice . -}}
         {{- with index . 0 -}}
         {{- with $image := $post.Resources.GetMatch . }}
-        <img src="{{ $image.RelPermalink }}" class="img-fluid img-h-20 post-summary__image" 
+        <img src="{{ $image.RelPermalink }}" class="img-fluid img-h-30 post-summary__image" 
         width="{{ .Width }}" height="{{ .Height }}" 
         alt="{{ printf " Image for post %s" $post.Title }}" title="{{ $post.Title }}">
         {{- end -}}
@@ -77,11 +70,82 @@
         {{- end -}}
         {{- end -}}
       </div>
-    </div>
-    <div class="row pt-3">
-      <div class="col">
+      <div class="col-md-6 mx-auto">
         {{ .Content }}
       </div>
+  </div>
+
+  <div class="container text-start">
+    <div class="row mx-auto p-2">
+      <div class="col-md-4 ms-md-auto align-self-center">
+        {{- $post := . -}}
+        {{- with .Params.images -}}
+        {{- if reflect.IsSlice . -}}
+        {{- with index . 1 -}}
+        {{- with $image := $post.Resources.GetMatch . }}
+        <img src="{{ $image.RelPermalink }}" class="img-fluid img-h-25 post-summary__image" 
+        width="{{ .Width }}" height="{{ .Height }}" 
+        alt="{{ printf " Image for post %s" $post.Title }}" title="{{ $post.Title }}">
+        {{- end -}}
+        {{- end -}}
+        {{- end -}}
+        {{- end -}}
+      </div>
+      <div class="col-md-4 ms-md-auto">
+        {{- $post := . -}}
+        {{- with .Params.images -}}
+        {{- if reflect.IsSlice . -}}
+        {{- with index . 2 -}}
+        {{- with $image := $post.Resources.GetMatch . }}
+        <img src="{{ $image.RelPermalink }}" class="img-fluid img-h-25 post-summary__image" 
+        width="{{ .Width }}" height="{{ .Height }}" 
+        alt="{{ printf " Image for post %s" $post.Title }}" title="{{ $post.Title }}">
+        {{- end -}}
+        {{- end -}}
+        {{- end -}}
+        {{- end -}}
+      </div>
+  </div>
+
+  <div class="container text-start">
+    <div class="row mx-auto p-2">
+      <div class="col-md-4 ms-md-auto align-self-center">
+        {{- $post := . -}}
+        {{- with .Params.images -}}
+        {{- if reflect.IsSlice . -}}
+        {{- with index . 3 -}}
+        {{- with $image := $post.Resources.GetMatch . }}
+        <img src="{{ $image.RelPermalink }}" class="img-fluid img-h-25 post-summary__image" 
+        width="{{ .Width }}" height="{{ .Height }}" 
+        alt="{{ printf " Image for post %s" $post.Title }}" title="{{ $post.Title }}">
+        {{- end -}}
+        {{- end -}}
+        {{- end -}}
+        {{- end -}}
+      </div>
+      <div class="col-md-4 ms-md-auto">
+        {{- $post := . -}}
+        {{- with .Params.images -}}
+        {{- if reflect.IsSlice . -}}
+        {{- with index . 4 -}}
+        {{- with $image := $post.Resources.GetMatch . }}
+        <img src="{{ $image.RelPermalink }}" class="img-fluid img-h-25 post-summary__image" 
+        width="{{ .Width }}" height="{{ .Height }}" 
+        alt="{{ printf " Image for post %s" $post.Title }}" title="{{ $post.Title }}">
+        {{- end -}}
+        {{- end -}}
+        {{- end -}}
+        {{- end -}}
+      </div>
+  </div>
+
+
+    </div>
+    <div class="row pb-3 border">
+      
+    </div>
+    <div class="row pt-3">
+      
     </div>
   </div>
 </section>
