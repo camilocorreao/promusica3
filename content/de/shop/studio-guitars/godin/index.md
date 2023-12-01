@@ -1,6 +1,6 @@
 ---
 title: "Godin Multiac Grand Concert SA"
-categories: ["Studio"]
+categories: ["Studio guitar"]
 date: 2021-03-03
 tags: ["Godin"]
 price: "€ 1.900,00"

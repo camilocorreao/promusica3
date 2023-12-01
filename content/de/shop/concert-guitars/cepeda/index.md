@@ -1,7 +1,7 @@
 ---
 title: "Luis Cepeda, doble tapa"
 date: 2022-04-26T21:56:13-04:00
-categories: ["Guitars"]
+categories: ["Concert guitar"]
 tags: ["Luthiers"]
 draft: false
 images: ["Luis_Cepeda.jpg", "cepeda-1.jpg", "Luis_Cepeda.jpg", "busquiel-5"]

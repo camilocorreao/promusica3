@@ -1,6 +1,6 @@
 ---
 title: "Iberica 9F CW"
-categories: ["Flamenco, Cutaway"]
+categories: ["Flamenco, Cutaway, Studio guitar"]
 date: 2021-03-03
 tags: [APC"]
 images: ["Iberica-9F-CW.jpg"]

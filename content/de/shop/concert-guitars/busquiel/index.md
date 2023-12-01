@@ -1,10 +1,11 @@
 ---
 title: "Carlos Juan Busquiel"
 date: 2022-04-26T21:56:13-04:00
-categories: ["Guitars"]
+categories: ["Concert guitar"]
 tags: ["Luthiers"]
 draft: false
-images: ["busquiel-0.jpg", "Busquiel_label.jpg", "busquiel-2.jpg", "busquiel-3.jpg"]
+images:
+  ["busquiel-0.jpg", "Busquiel_label.jpg", "busquiel-2.jpg", "busquiel-3.jpg"]
 price: "€ 4.900,00"
 ---
 
