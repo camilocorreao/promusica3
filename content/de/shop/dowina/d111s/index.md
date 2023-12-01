@@ -2,7 +2,7 @@
 title: "D111S"
 categories: ["Dowina"]
 date: 2021-03-03
-tags: ["dreanought"]
+tags: ["Dreanought"]
 images: ["D111-front.jpeg"]
 price: 347,00
 ---

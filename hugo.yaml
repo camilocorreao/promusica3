@@ -82,17 +82,17 @@ languages:
           pageRef: concert-guitars
           url: /shop/concert-guitars
           parent: Shop
-          weight: 10
+          weight: 30
         - name: Studiogitarren
           pageRef: studio-guitars
           url: /shop/studio-guitars
           parent: Shop
-          weight: 20
+          weight: 10
         - name: Dowina
           pageRef: Dowina
           url: /shop/dowina
           parent: Shop
-          weight: 30
+          weight: 20
         - name: Zubehör
           pageRef: accessories
           url: /shop/accessories
@@ -102,7 +102,7 @@ languages:
         - name: Kontakt
           pageRef: contact
           url: /pages/contact
-          weight: 10
+          weight: 20
   en:
     contentDir: content/en
     disabled: false
@@ -114,7 +114,7 @@ languages:
           pageRef: /
           url: /
           weight: 10
-        - name: "about-me"
+        - name: "about me"
           pageRef: about
           url: /pages/about
           weight: 20
@@ -127,29 +127,29 @@ languages:
           url: /blog
           weight: 40
       secondary:
-        - name: Shop
+        - name: shop
           pageRef: shop
           url: /shop
           weight: 10
         - name: concert guitars
           pageRef: concert-guitars
           url: /shop/concert-guitars
-          parent: Shop
-          weight: 10
+          parent: shop
+          weight: 30
         - name: studio guitars
           pageRef: studio-guitars
           url: /shop/studio-guitars
-          parent: Shop
-          weight: 20
+          parent: shop
+          weight: 10
         - name: Dowina
           pageRef: Dowina
           url: /shop/dowina
-          parent: Shop
-          weight: 30
+          parent: shop
+          weight: 20
         - name: accessories
           pageRef: accessories
           url: /shop/accessories
-          parent: Shop
+          parent: shop
           weight: 40
       tertiary:
         - name: contact

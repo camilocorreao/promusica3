@@ -4,7 +4,7 @@ categories: ["Guitar stand"]
 date: 2021-12-17T13:31:12+11:00
 tags: ["HM EG23"]
 images: [hm-eg23-wooden-guitar-stand-1.webp]
-preis: € 53.55
+price: € 53.55
 ---
 
 {{< img-index "1" "Wooden Guitar Stand" >}}

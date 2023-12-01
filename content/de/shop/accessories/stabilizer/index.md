@@ -12,4 +12,5 @@ to protect their varnish.
 They don't affect the sound of the instrument and offer great protection
 from wayward rasgueados, careless fingernails and general wear and tear
 the guitar has to suffer._"
+
 David Russell

@@ -2,7 +2,7 @@
 title: "Gitarrenunterricht"
 date: 2022-04-26T21:56:13-04:00
 price: "€ 45.00 / 50 Min."
-categories: ["unterricht"]
+categories: ["Unterricht"]
 tags: ["Gitarre"]
 draft: false
 images: [5_gitarrenunterricht.jpg]

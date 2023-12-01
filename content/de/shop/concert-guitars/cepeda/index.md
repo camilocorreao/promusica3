@@ -4,7 +4,7 @@ date: 2022-04-26T21:56:13-04:00
 categories: ["Guitars"]
 tags: ["Luthiers"]
 draft: false
-images: ["Luis_Cepeda.jpg", "cepeda-1.jpg", "Luis_Cepeda.jpg"]
+images: ["Luis_Cepeda.jpg", "cepeda-1.jpg", "Luis_Cepeda.jpg", "busquiel-5"]
 price: "€ 5.900,00"
 ---
 

@@ -2,7 +2,7 @@
 title: "D333CED"
 categories: ["Dowina"]
 date: 2021-03-03
-tags: ["Western, "]
+tags: ["Western, Dreanought "]
 images: ["D333-CED-front.jpeg"]
 price: "€ 479,00"
 ---
