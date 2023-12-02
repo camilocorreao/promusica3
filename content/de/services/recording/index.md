@@ -3,6 +3,7 @@ title: "Musik Aufnehmen"
 description: Postproduktion
 categories: ["Recording"]
 date: 2021-03-03
+Price: "Je nach Project Aufwand."
 tags: ["Musik Aufnehmen "]
 images: ["Postproduction1.jpg"]
 ---

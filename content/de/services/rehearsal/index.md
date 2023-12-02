@@ -3,6 +3,7 @@ title: "Proberaum"
 categories: ["Proberaum"]
 date: 2021-03-03
 tags: ["rehearsal"]
+Price: €13,00 / Stunde
 images: ["probe1.jpg"]
 source: https://www.promusica.co/
 ---

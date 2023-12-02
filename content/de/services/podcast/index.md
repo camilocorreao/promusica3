@@ -5,6 +5,7 @@ categories: ["Podcast"]
 date: 2021-03-03
 tags: ["Podcast"]
 images: ["0_ACR_Podcast.jpg"]
+price: €40 pro Stude Sound Engineer €10,00 Stunde Studio
 source: https://www.promusica.co/
 ---
 
