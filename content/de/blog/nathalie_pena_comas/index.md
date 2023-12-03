@@ -7,4 +7,6 @@ tags: [Rodrigo, Monsalvage]
 images: [Nathalie.webp]
 ---
 
+**Recording coming soon.**
+<br>
 Nathalie Peña-Comas, eine Latin Grammy-nominierte Sopranistin aus der Dominikanischen Republik, hat Anerkennung für ihre Auftritte in verschiedenen Ländern erlangt, darunter Opernrollen in Europa und ihrem Heimatland. Sie hat mit renommierten Orchestern und Künstlern zusammengearbeitet, Auszeichnungen für ihre klassische Gesangskunst erhalten und ist kulturelle Botschafterin für die Dominikanische Republik. Darüber hinaus hat Nathalie mit dem Ensemble Spirituosi getourt. Sie hat einen Bachelor-Abschluss von der Universität für Musik und darstellende Kunst Wien und kürzlich internationale Opernwettbewerbe gewonnen.
