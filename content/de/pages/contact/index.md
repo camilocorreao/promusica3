@@ -1,5 +1,5 @@
 ---
-title: "Kontakt"
+title: "Ich freue mich von Ihnen zu hören!"
 slug: kontakt
 date: 2021-12-17T13:31:12+11:00
 draft: false
@@ -10,7 +10,7 @@ gmapURL: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2659.174718070939
 
 # contact form
 form:
-  title: Bitte senden Sie uns eine Nachricht
+  title: Bitte senden Sie eine Nachricht mit Ihren Anliegen
   id: js-contactForm
   inputs:
     - id: contact-name

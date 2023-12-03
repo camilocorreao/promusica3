@@ -20,4 +20,7 @@ Aber das ist noch nicht alles! Ich habe all das Wissen, das ich mir in den letzt
 
 Also, wenn ihr ebenfalls leidenschaftliche Musiker seid oder einfach nur neugierig auf coole Projekte, meldet euch bei mir.
 
+**Ergänzung:**
+Ich habe mein Diplom in Konzertgitarre an der MDW erworben, der früheren Hochschule für Musik und darstellende Kunst in Wien. Dabei stand mir Professor Walter Würdinger als Lehrer zur Seite. Zusätzlich habe ich Unterricht bei renommierten Persönlichkeiten wie Paul Angerer, David Russell, Manuel Barrueco, Brigitte Zaczek und Nicholas Goluses genossen.
+
 <!-- {{< img-index "0" "das Studio in der Böcklinstrasse" >}} -->
