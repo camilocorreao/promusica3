@@ -19,4 +19,7 @@ But that's not all! I have used all the knowledge I have acquired in recent year
 
 So, if you are also passionate musicians or are simply curious about cool projects, get in touch with me.
 
+**Addition:**
+I obtained my diploma in concert guitar from the MDW, the former University of Music and Performing Arts in Vienna, under the guidance of Professor Walter Würdinger. I also received instruction from notable figures such as Paul Angerer, David Russell, Manuel Barrueco, Brigitte Zaczek, and Nicholas Goluses.
+
 {{< img-index "1" "das Studio in der Böcklinstrasse" >}}

@@ -3,7 +3,8 @@ title: "Ovia Vienna 30s"
 categories: ["Studio guitar"]
 date: 2021-03-03
 tags: ["Ovia"]
-images: ["Ovia-Vienna-30s.jpg"]
+images:
+  ["ovias-0.jpg", "ovias-1.jpg", "ovias-2.jpg", "ovias-3.jpg", "ovias-4.jpg"]
 price: "€ 290,00"
 source: https://www.promusica.co/
 ---

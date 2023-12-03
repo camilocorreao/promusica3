@@ -4,6 +4,7 @@ description: Post-production
 categories: ["Recording"]
 date: 2021-03-03
 tags: ["Musik Aufnehmen "]
+price: Depending on the project complexity.
 images: ["Postproduction1.jpg"]
 ---
 

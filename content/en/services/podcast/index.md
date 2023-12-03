@@ -4,6 +4,7 @@ description: ...just you and your voice
 categories: ["podcast"]
 date: 2021-03-03
 tags: ["podcast"]
+price: Sound Engineer €40 per hour. Studio €10,00 per hour
 images: ["0_ACR_Podcast.jpg"]
 ---
 
