@@ -7,7 +7,17 @@ images: []
 mp4_url: /videos/schumann_guillaume_pasch.mp4
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis voluptatum enim ipsa quis a. Odio officia earum sit neque, reprehenderit non quos animi, totam ratione dignissimos esse. Facilis minima molestiae suscipit rem unde, amet quia nemo ut expedita eligendi incidunt maxime fugit eaque labore aut sit, reiciendis voluptate cum? Dolore cum voluptates, perferendis adipisci tempore quasi blanditiis rem, distinctio porro quidem fuga accusamus eveniet quas! A, inventore distinctio explicabo ut sapiente ad reiciendis adipisci eveniet neque. Sequi qui cumque, facere eius cupiditate laudantium sit, voluptate adipisci voluptatem atque quis consequatur veniam recusandae hic? Et animi culpa libero, repellat dicta quo.
+Guillaume Pasch (born in 1985) studied concert violin at the University of Music and Performing Arts Vienna, as well as at the Tchaikovsky Conservatory in Moscow, Russia.
+
+His teachers included Dora Schwarzberg, Josef Hell, Marina Keselman, and Siegfried Führlinger.
+
+Chamber music lessons with Valentin Erben (member of the Alban Berg Quartet) inspired Guillaume to found the Arco Quartet Vienna.
+
+Numerous concert tours around the world took him to various stages in Germany, Austria, France, Italy, Spain, Russia, Croatia, Portugal, Hungary, Lebanon, Japan, and South Korea. He performed at festivals and concert halls, including Musikverein, National Library, and Schönbrunn Palace in Vienna, Bolshoi Hall in Moscow, St. Petersburg Philharmonia, Thêatre du Châtelet in Paris, Metropolitan Opera Concert Hall, and Nippon Foundation in Tokyo, Crystall Hall in Asahikawa, Academy of Fine Arts, and Juan March Foundation in Madrid.
+
+Live performances and concert broadcasts could be heard on radio and television on Radio Clásica (Spain), NHK (Japan), and RSN (Russia).
+
+Guillaume plays on a violin by Jean-Baptiste Vuillaume from 1845.
 <br>
 <br>
 
