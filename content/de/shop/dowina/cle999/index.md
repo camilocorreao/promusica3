@@ -7,4 +7,4 @@ images: ["CLE-999-front.jpeg"]
 price: 563,00
 ---
 
-Solid Canad.cedar/ Alpine Italian spruce, rosewood back&sides, mahogany neck , bone nut and saddle,rosewood special bridge and fingerboard- "SPANISH FOOT" join neck to body
+Solid Canad.cedar/ Alpine Italian spruce, rosewood back&sides, mahogany neck, bone nut and saddle, rosewood special bridge and fingerboard- "SPANISH FOOT" join neck to body
