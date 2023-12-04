@@ -3,7 +3,7 @@ title: "Alwin Schönberger "
 categories: ["Blues"]
 date: 2021-03-03
 tags: ["Western"]
-images: ["Igner.png"]
+images: ["Alwin.webp"]
 source: https://www.promusica.co/
 ---
 

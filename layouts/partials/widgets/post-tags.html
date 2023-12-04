@@ -5,7 +5,7 @@
         <h3 class="widget__headinng">Post Tags</h3>
 
         {{ range first (site.Params.postTags | default 10)  $tags.ByCount }}
-            <a class="widget btn btn-primary btn-sm me-1 mb-2" role="button" href="{{ .Page.RelPermalink }}">{{ .Page.Title }} ({{ .Count }})</a>
+            <a class="widget btn btn-success btn-sm me-1 mb-2" role="button" href="{{ .Page.RelPermalink }}">{{ .Page.Title }} ({{ .Count }})</a>
         {{ end }}
 
 {{ end }}
