@@ -60,7 +60,7 @@ languages:
           pageRef: /
           url: /
           weight: 10
-        - name: Über mich
+        - name: Über-mich
           pageRef: about
           url: /pages/about
           weight: 20
@@ -114,7 +114,7 @@ languages:
           pageRef: /
           url: /
           weight: 10
-        - name: "about me"
+        - name: "about-me"
           pageRef: about
           url: /pages/about
           weight: 20
