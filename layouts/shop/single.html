@@ -16,7 +16,7 @@
           {{ $PublishDate }}
         </time>
         {{ if ne $PublishDate $lastmod }}
-        <em> last updated on <time datetime="{{ .lastmod.Format " 2006-01-02" }}">{{ $lastmod }}</time></em>
+        <em> last updated on <time datetime="{{ .lastmod.Format " 2006-01-02" }}">{{ .lastmod }}</time></em>
         {{ end }}
         {{ end }}
       </div>
