@@ -4,7 +4,6 @@ categories: ["Violin"]
 date: 2022-04-26T21:56:13-04:00
 tags: ["Schumann"]
 images: []
-font-family: Roboto, sans-serif
 mp4_url: /videos/schumann_guillaume_pasch.mp4
 ---
 
