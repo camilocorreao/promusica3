@@ -9,14 +9,14 @@
     <div class="row">
       <div class="col-md-6">
         {{ if .PublishDate }}
-        {{ $PublishDate := .PublishDate.Format site.Params.dateFormat }}
-        {{ $lastmod := .Lastmod.Format site.Params.dateFormat }}
+        {{ $publishDate := .PublishDate.Format site.Params.dateFormat }}
+        {{ $lastMod := .Lastmod.Format site.Params.dateFormat }}
         {{ partial "svg-icon" "icons/bootstrap/calendar2-date.svg" }}
         <time datetime="{{ .PublishDate.Format " 2006-01-02" }}">
-          {{ $PublishDate }}
+          {{ $publishDate }}
         </time>
-        {{ if ne $PublishDate $lastmod }}
-        <em> last updated on <time datetime="{{ .LastMod.Format " 2006-01-02" }}">{{ .LastMod }}</time></em>
+        {{ if ne $publishDate $lastMod }}
+        <em> last updated on <time datetime="{{ .LastMod.Format " 2006-01-02" }}">{{ $lastMod }}</time></em>
         {{ end }}
         {{ end }}
       </div>
