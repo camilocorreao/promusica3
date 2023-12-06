@@ -7,7 +7,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-md-6">
+      <!-- <div class="col-md-6">
         {{ if .PublishDate }}
         {{ $publishDate := .PublishDate.Format site.Params.dateFormat }}
         {{ $lastMod := .Lastmod.Format site.Params.dateFormat }}
@@ -19,7 +19,7 @@
         <em> last updated on <time datetime="{{ .LastMod.Format " 2006-01-02" }}">{{ $lastMod }}</time></em>
         {{ end }}
         {{ end }}
-      </div>
+      </div> -->
       <div class="col-md-6 d-flex">
         {{ with .ReadingTime }}
         <span class="ms-md-auto">
