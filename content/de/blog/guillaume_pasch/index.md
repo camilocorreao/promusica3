@@ -1,7 +1,7 @@
 ---
 title: "Guillaume Pasch"
 categories: ["Violin"]
-date: 2022-01-03
+date: 2022-04-26T21:56:13-04:00
 tags: ["Schumann"]
 images: []
 font-family: Roboto, sans-serif
