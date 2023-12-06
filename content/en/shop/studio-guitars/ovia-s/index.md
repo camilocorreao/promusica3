@@ -1,7 +1,7 @@
 ---
 title: "Ovia Vienna 30s"
 categories: ["Studio guitar"]
-date: 2021-03-03
+date: 2022-04-26T21:56:13-04:00
 tags: ["Ovia"]
 images:
   ["ovias-0.jpg", "ovias-1.jpg", "ovias-2.jpg", "ovias-3.jpg", "ovias-4.jpg"]
