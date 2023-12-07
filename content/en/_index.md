@@ -1,9 +1,9 @@
 ---
 title: "Studio"
-description: "Sound and Quiet"
+description: "Sound and Silence"
 date: 2021-11-16T23:04:08+11:00
 draft: false
-images: [3_gitarrenunterricht.jpg]
+images: [klang_ruhe_e.jpg]
 ---
 
 {{< img-index "1" "das Studio in der Böcklinstrasse" >}}
