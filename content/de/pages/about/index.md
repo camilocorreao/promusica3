@@ -8,19 +8,19 @@ weight: 20
 images: [2_gitarrenunterricht.jpg]
 ---
 
-Hey, Leute!
+Liebe Freunde!
 
-Ich unterrichte mit grosse Leidenschaft und freue mich, mit euch, diesen Weg weiter zu gehen.
+Ich unterrichte mit großer Leidenschaft und freue mich darauf, diesen Weg mit euch weiter zu gehen.
 
-Nach einer echt langen Pause habe ich endlich den Entschluss gefasst, meine Gitarre aus dem Schrank zu holen und wieder loszulegen. Und wisst ihr was? Es war die beste Entscheidung ever!
+Mein Diplom in Konzertgitarre habe ich an der MDW erworben, der früheren Hochschule für Musik und darstellende Kunst in Wien, unter der Anleitung von Professor Walter Würdinger. Zusätzlich habe ich Unterricht bei renommierten Persönlichkeiten wie Paul Angerer, David Russell, Manuel Barrueco, Brigitte Zaczek und Nicholas Goluses genossen.
 
-Neben meiner täglichen **Gitarren-Routine** habe ich mir auch noch ein kleines Projekt vorgenommen – das **proMúsica Studio**. Ich habe mir vorgenommen, meinen Raum zu einem richtigen Wohlfühl-Studio für Musik zu machen.
+Neben meiner täglichen Gitarren-Routine habe ich mir ein weiteres Projekt vorgenommen: das **proMúsica Studio**. Mein Ziel ist es, meinen Raum zu einem richtigen Wohlfühl-Studio für Musik zu gestalten.
 
-Aber das ist noch nicht alles! Ich habe all das Wissen, das ich mir in den letzten Jahren über **Linux** und die **Open-Source-Bewegung** angeeignet habe, eingesetzt. Das bedeutet, ich habe nicht nur Gitarre gespielt, sondern auch Hardware und Software installiert und konfiguriert und die Akustik im Raum angepasst. Auch diese Webseite habe ich ENDLICH fertig gemacht (wird aber nie fertig...). Es ist echt cool, was man alles mit dieser Technologie machen kann.
+All das Wissen, das ich mir in den letzten Jahren über Linux und die Open-Source-Bewegung angeeignet habe, habe ich eingesetzt. Ich habe Hardware und Software installiert, konfiguriert und die Akustik im Raum angepasst. Auch diese Webseite habe ich fertiggestellt. Es ist erstaunlich, was man alles mit dieser Technologie erreichen kann.
 
-Also, wenn ihr ebenfalls leidenschaftliche Musiker seid oder einfach nur neugierig auf coole Projekte, meldet euch bei mir.
+**In meinem Unterricht ist Aufnehmen selbstverständlich!**
 
-**Ergänzung:**
-Ich habe mein Diplom in Konzertgitarre an der MDW erworben, der früheren Hochschule für Musik und darstellende Kunst in Wien. Dabei stand mir Professor Walter Würdinger als Lehrer zur Seite. Zusätzlich habe ich Unterricht bei renommierten Persönlichkeiten wie Paul Angerer, David Russell, Manuel Barrueco, Brigitte Zaczek und Nicholas Goluses genossen.
+Also: Wenn ihr ebenso leidenschaftliche Musiker seid oder einfach neugierig auf coole Projekte, meldet euch bei mir.
+
 
 <!-- {{< img-index "0" "das Studio in der Böcklinstrasse" >}} -->
