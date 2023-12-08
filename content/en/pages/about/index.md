@@ -7,19 +7,18 @@ subtitle: Serving the local community since 1999
 images: [2_gitarrenunterricht.jpg]
 ---
 
-Hey, guys!
+Dear friends!
 
-I teach with great passion and I am excited to continue on this path with you.
+I teach with great passion and look forward to continuing this journey with you.
 
-After a really long break, I finally decided to take my guitar out of the closet and start playing again. And you know what? It was the best decision ever!
+I obtained my diploma in concert guitar from the MDW, the former University of Music and Performing Arts in Vienna, under the guidance of Professor Walter Würdinger. Additionally, I have received instruction from renowned figures such as Paul Angerer, David Russell, Manuel Barrueco, Brigitte Zaczek, and Nicholas Goluses.
 
-In addition to my daily guitar routine, I have also taken on a small project - the proMúsica Studio. I have decided to make my room a real music studio that feels good.
+In addition to my daily guitar routine, I have taken on another project: the **proMúsica Studio**. My goal is to turn my space into a proper music haven.
 
-But that's not all! I have used all the knowledge I have acquired in recent years about Linux and the open source movement. That means that I have not only played the guitar, but also installed and configured hardware and software and adapted the acoustics of the room. I have also finally finished this website (but it will never be finished...). It's really cool what you can do with this technology.
+I have utilized all the knowledge I have acquired over the past years about Linux and the open-source movement. I have installed and configured hardware and software, adjusted the acoustics in the room, and even completed this website. It's amazing what can be achieved with this technology.
 
-So, if you are also passionate musicians or are simply curious about cool projects, get in touch with me.
+**Recording** is, of course, a natural part of my teaching!
 
-**Addition:**
-I obtained my diploma in concert guitar from the MDW, the former University of Music and Performing Arts in Vienna, under the guidance of Professor Walter Würdinger. I also received instruction from notable figures such as Paul Angerer, David Russell, Manuel Barrueco, Brigitte Zaczek, and Nicholas Goluses.
+So, if you are equally passionate musicians or simply curious about cool projects, feel free to get in touch with me.
 
 {{< img-index "1" "das Studio in der Böcklinstrasse" >}}
