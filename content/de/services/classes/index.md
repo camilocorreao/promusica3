@@ -17,4 +17,4 @@ source: https://www.promusica.co/
 
 - Ich unterrichte in Wien 2, in der Böcklinstraße 100, aber auch in Klosterneuburg, in der Doppelngasse 94/9.
 
-- Ruf mich an, um einen Termin zu vereinbaren. Ich freue mich schon darauf.
+- Ruf mich an, um einen unverbindlichen Termin zu vereinbaren. Ich freue mich schon darauf.
