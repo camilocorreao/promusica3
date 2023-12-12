@@ -8,6 +8,13 @@ images: []
 mp4_url: /videos/Diego_y_Natalia.mp4
 ---
 
-{{< youtube id="lUmQDJPgL3U" >}}
 <br>
 Diego Posse & Natalia Orduz - Nueva latitud (proMúsica Wien 2023)
+
+{{< rawhtml >}}
+<video width=50% controls autoplay>
+
+<source src="/videos/Diego_y_Natalia.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+{{< /rawhtml >}}

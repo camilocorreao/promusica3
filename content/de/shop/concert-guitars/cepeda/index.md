@@ -1,11 +1,12 @@
 ---
 title: "Luis Cepeda, doble tapa"
-date: 2022-04-26T21:56:13-04:00
+date: 2023-12-10T21:56:13-04:00
 categories: ["Concert guitar"]
 tags: ["Luthiers"]
 draft: false
 images: ["Luis_Cepeda.jpg"]
 price: "€ 5.900,00"
+weight: 20
 ---
 
 "Seit fast vier Jahrzehnten baue ich Gitarren und erforsche leidenschaftlich die Geschichte und Entwicklung dieses wunderbaren Instruments. Es ist für mich ein entscheidender Moment in der Evolution der Gitarre.

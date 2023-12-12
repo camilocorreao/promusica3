@@ -1,12 +1,13 @@
 ---
 title: "Carlos Juan Busquiel"
-date: 2022-04-26T21:56:13-04:00
+date: 2023-12-10T21:56:13-04:00
 categories: ["Concert guitar"]
 tags: ["Luthiers"]
 draft: false
 images:
   ["busquiel-0.jpg", "Busquiel_label.jpg", "busquiel-2.jpg", "busquiel-3.jpg"]
 price: "€ 4.900,00"
+weight: 30
 ---
 
 **Carlos Juan Busquiel** wurde 1980 geboren und begann im Alter von 12 Jahren, Gitarre zu spielen, obwohl er auch Violinstudien am Konservatorium absolvierte. Später studierte er Musik und Englisch an der **Universität von Alicante** und war neun Jahre lang als Lehrer tätig.
