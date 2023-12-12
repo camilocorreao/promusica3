@@ -20,7 +20,8 @@ All das Wissen, das ich mir in den letzten Jahren über Linux und die Open-Sourc
 
 **In meinem Unterricht ist Aufnehmen selbstverständlich!**
 
-Also: Wenn ihr ebenso leidenschaftliche Musiker seid oder einfach neugierig auf coole Projekte, meldet euch bei mir.
+Also, wenn ihr ebenso leidenschaftliche Musiker seid oder einfach neugierig auf coole Projekte, meldet euch bei mir.
 
+Camilo Correa
 
 <!-- {{< img-index "0" "das Studio in der Böcklinstrasse" >}} -->

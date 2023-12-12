@@ -64,13 +64,13 @@ languages:
           pageRef: about
           url: /pages/about
           weight: 20
-        - name: Angebot
+        - name: Dienstleistung
           pageRef: services
           url: /services
           weight: 30
-        - name: Blog
-          pageRef: blog
-          url: /blog
+        - name: Aufnahmen
+          pageRef: recordings
+          url: /recordings
           weight: 40
 
       secondary:
@@ -118,13 +118,13 @@ languages:
           pageRef: about
           url: /pages/about
           weight: 20
-        - name: offers
+        - name: services
           pageRef: services
           url: /services
           weight: 30
-        - name: blog
-          pageRef: blog
-          url: /blog
+        - name: recordings
+          pageRef: recordings
+          url: /recordings
           weight: 40
       secondary:
         - name: shop
@@ -277,12 +277,13 @@ params:
           - day: Freitag
             open: 2021-01-01T14:00:00
             close: 2021-01-01T18:00:00
-          - day: Montag, Samstag und Sonntag
-            custom: Nach Vereinbarung
+          - day: Alle Tage
+            custom: <strong>nach Vereinbarung</strong>
+
     telephone:
       # first record appears in schema data
       - name: Phone
-        text: (0676) 777 4149
+        text: (0676) 777 4149 Camilo Correa
         url: "tel:+61280043293"
         icon: icons/bootstrap/telephone.svg
         # icon: bi bi-phone
