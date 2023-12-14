@@ -1,6 +1,7 @@
 ---
-title: "Studio"
-description: "Klang und Ruhe"
+title: "proMusica"
+slogan: "Guitars, strings and more"
+description: "Wir verkaufen Gitarren und bieten Gitarrenunterricht an. Bei uns können Sie ihren podcast Realisieren, Musik aufnehmen und Zeit für ihre Musikproben buchen."
 date: 2021-11-16T23:04:08+11:00
 draft: false
 images: [klang_ruhe.jpg]

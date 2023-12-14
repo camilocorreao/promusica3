@@ -11,6 +11,7 @@ weight: 10
 ---
 
 - Am besten kommst du in mein Studio und erfährst direkt von mir mehr über die Art und Weise meines Unterrichts.
+<!--more-->
 
 - Über den Preis können wir reden. Normalerweise beträgt der Unterricht €55,- für 50 Minuten. Für mich sind jedoch Begeisterung und Ausdauer wichtiger.
 

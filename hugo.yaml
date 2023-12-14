@@ -1,14 +1,14 @@
 baseURL: "/"
 # for xml output
 # for website
-title: proMúsica
+title: proMusica
 # alternate copyright company text
 copyright: Camilo Correa
 # controls number of pages displayed on list pages
-defaultContentLanguage: de
+defaultContentLanguage: "de"
 paginate: 5
 # controls the summary length on list pages
-summaryLength: 10
+summaryLength: 40
 # this is required so that Hugo will render markdown to HTML
 markup:
   goldmark:
@@ -50,7 +50,7 @@ languages:
   de:
     contentDir: content/de
     disabled: false
-    languageCode: de-de
+    languageCode: "de-at"
     languageName: Deutsch
     params:
       color: blue # as an example of custom params
@@ -106,7 +106,7 @@ languages:
   en:
     contentDir: content/en
     disabled: false
-    languageCode: en-us
+    languageCode: "en-us"
     languageName: English
     menu:
       main:
@@ -160,7 +160,7 @@ languages:
   es:
     contentDir: content/es
     disabled: true
-    languageCode: es-es
+    languageCode: "es-es"
     languageName: Español
     menu:
       main:

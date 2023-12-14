@@ -1,9 +1,9 @@
 ---
 title: "Über-mich"
-description: ' "Wenn man sich darauf beschränkt, darüber nachzudenken, was getan werden muss, verliert man die Möglichkeit, es zu tun." Shinichi Suzuki '
+description: "Mit über 35 Jahren Erfahrung als Gitarrenlehrer freue ich mich, Sie auf Ihrer musikalischen Reise zu begleiten."
+summary: ' "Wenn man sich darauf beschränkt, darüber nachzudenken, was getan werden muss, verliert man die Möglichkeit, es zu tun." Shinichi Suzuki'
 date: 2021-11-23T21:18:08+11:00
 draft: false
-subtitle: Serving the local community since 1999
 weight: 20
 images: [2_gitarrenunterricht.jpg]
 ---
