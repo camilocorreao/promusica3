@@ -1,5 +1,9 @@
 ---
+<<<<<<< HEAD
 title: "proMusica"
+=======
+title: "Studio"
+>>>>>>> 0b2fee331d1c2dcaee5b4de29ebf51d0b2f38f0a
 description: "Sound and Silence"
 date: 2021-11-16T23:04:08+11:00
 draft: false
