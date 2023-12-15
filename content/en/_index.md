@@ -1,6 +1,6 @@
 ---
 title: "proMusica"
-description: "Sound and Silence"
+description: "We sell guitars and offer guitar lessons. With us, you can realize your podcast, record music, and book time for your music rehearsals."
 date: 2021-11-16T23:04:08+11:00
 draft: false
 images: [klang_ruhe_e.jpg]
