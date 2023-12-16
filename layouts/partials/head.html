@@ -9,9 +9,12 @@
     {{- end -}}
   </title>
   <meta name="description" content="{{ .Description  | default .Summary }}">
+  {{- /* alternate output formats e.g. rss feed */ -}}
+  {{ range .AlternativeOutputFormats -}}
+  <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | absURL }}">
+{{ end -}}
+
+{{- /* canonical rel tags */ -}}
+<link rel="canonical" href="{{ .Permalink | safeURL }}">
   {{ partial "libsass" "scss/main.scss" }}
 
-    <!-- {{ .Site.Title }}{{ if not .IsHome }} - {{ .Title }}{{ end }}</title>
-  {{ partial "libsass" "scss/main.scss" }} -->
-  <!-- <script src="{{ .Site.BaseURL }}/node_modules/@popperjs/core/dist/esm/popper.js"></script> -->
-  <!-- <script src="{{ .Site.BaseURL }}/node_modules/bootstrap/dist/bootstrap.js"></script> -->

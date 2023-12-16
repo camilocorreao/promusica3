@@ -8,7 +8,6 @@ images: [5_gitarrenunterricht.jpg]
 source: https://www.promusica.co/
 ---
 
-<<<<<<< HEAD
 Die leichte Spielbarkeit ist definitiv eine Voraussetzung für ein erfolgreiches Lernprozess. Auch die Qualität der Saiten spielt eine wichtige Rolle.
 
 Deswegen:
@@ -22,9 +21,6 @@ Deswegen:
 - Regulierung auf Leichte Spielbarkeit: Sattel und Brücke Nachregulierung
 - Gewünschte Saiten, Marke und Material für klassische Gitarre: Nylon oder Carbon Saiten.
   Die **leichte Spielbarkeit** ist definitiv eine Voraussetzung für ein erfolgreiches Lernprozess. Auch die Qualität der Saiten spielt eine wichtige Rolle.
-=======
-Die **leichte Spielbarkeit** ist definitiv eine Voraussetzung für ein erfolgreiches Lernprozess. Auch die Qualität der Saiten spielt eine wichtige Rolle.
->>>>>>> 0b2fee331d1c2dcaee5b4de29ebf51d0b2f38f0a
 
 Deswegen, kontrolieren wir ihre gewünschten Gitarren bevor sie uns besuchen:
 
@@ -39,8 +35,3 @@ Regulierung auf leichte Spielbarkeit: Sattel und Brücke Nachregulierung
 Nach Ihren Test können wir noch nach Wunsch, ihr ausgewähltes Intrument von unseren **professionellen Gitarrenbauer** auch nach Ihren Bedürfnissen nachregulieren lassen.
 
 Rufen sie mich an oder senden sie mir eine Nachricht mit ihre Information und Wunschtermin.
-<<<<<<< HEAD
-
-> > > > > > > f9d0cac (Navbar Menu new and some content)
-=======
->>>>>>> 0b2fee331d1c2dcaee5b4de29ebf51d0b2f38f0a
