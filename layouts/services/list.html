@@ -34,7 +34,12 @@
               </header>
               <div class="pb-3">
                 {{ .Summary }}
+                {{ if .Truncated }}
+      <!-- This <div> includes a read more link, but only if the summary is truncated... -->
+                 <a class="text-decoration-none" href="{{ .RelPermalink }}">Mehr lesen…</a>
+                 {{ end }}
               </div>
+              
               <div class="mt-auto d-flex">
                   <!-- {{ with .ReadingTime }}
                     <span>

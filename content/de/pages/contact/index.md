@@ -1,5 +1,6 @@
 ---
 title: "Ich freue mich von Ihnen zu hören!"
+description: "Hier finden Sie die erforderlichen Informationen, um Kontakt aufzunehmen."
 slug: kontakt
 date: 2021-12-17T13:31:12+11:00
 draft: false

@@ -1,6 +1,6 @@
 ---
-title: "Musik Aufnehmen"
-description: Postproduktion
+title: "Musik aufnehmen"
+description: "Musik aufnehmen im ruhigen Studio mit den besten Soyuz-Mikrofonen."
 categories: ["Recording"]
 date: 2021-03-03
 Price: "Je nach Project Aufwand."

@@ -209,6 +209,7 @@ languages:
 # config for related posts
 
 params:
+  defaultDescription: "Wir bieten professionellen Gitarrenunterricht an und unterstützen Sie beim Erwerb Ihrer eigenen Gitarre. Darüber hinaus ermöglichen wir Ihnen die Realisierung Ihres Podcasts oder Ihrer Musikaufnahmen. Oder buchen Ihre bevorzugte Zeit für Musikproben im Studio."
   video: "mp4_url"
   logo: "img/logo.png"
   dateFormat: "02/01/2006"

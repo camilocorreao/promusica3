@@ -1,9 +1,9 @@
 ---
 title: "recording"
-description: Post-production
+description: "Recording music in a quiet studio using the best Soyuz microphones."
 categories: ["Recording"]
 date: 2021-03-03
-tags: ["Musik Aufnehmen "]
+tags: ["recording "]
 price: Depending on the project complexity.
 images: ["Postproduction1.jpg"]
 ---
