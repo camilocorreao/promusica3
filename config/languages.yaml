@@ -1,0 +1,112 @@
+languages:
+  de:
+    contentDir: content/de
+    languageName: Deutsch
+    menu:
+      main:
+        - name: Studio
+          pageRef: /
+          url: /
+          weight: 10
+        - name: Über mich
+          pageRef: about
+          url: /pages/about
+          weight: 20
+        - name: Blog
+          pageRef: blog
+          url: /blog
+          weight: 30
+        - name: Kontakt
+          pageRef: contact
+          url: /pages/contact
+          weight: 40
+      secondary:
+        - name: Shop
+          pageRef: Shop
+          url: /shop
+          weight: 10
+        - name: Gitarren
+          pageRef: Gitarren
+          url: /shop/guitars
+          parent: shop
+          weight: 10
+        - name: Zubehör
+          pageRef: accessories
+          url: /shop/accessories
+          parent: shop
+          weight: 20
+        - name: Serviceleistung
+          pageRef: services
+          url: /shop/services
+          parent: shop
+          weight: 30
+
+  en:
+    contentDir: content/en
+    languageName: English
+    menu:
+      main:
+        - name: studio
+          pageRef: /
+          weight: 10
+        - name: "about me"
+          pageRef: /pages/about
+          weight: 20
+        - name: blog
+          pageRef: /de/blog
+          weight: 30
+        - name: contact
+          pageRef: /pages/contact
+          weight: 40
+      secondary:
+        - name: Shop
+          pageRef: shop
+          url: /shop
+          weight: 10
+        - name: guitars
+          pageRef: guitars
+          url: /shop/guitars
+          parent: shop
+          weight: 10
+        - name: accessories
+          pageRef: accessories
+          url: /shop/accessories
+          parent: shop
+          weight: 20
+        - name: Services
+          pageRef: services
+          url: /shop/services
+          parent: shop
+          weight: 30
+  es:
+    contentDir: content/es
+    languageName: Español
+    menu:
+      main:
+        - name: estudio
+          pageRef: /
+          weight: 10
+        - name: "acerca de mí"
+          pageRef: /pages/about
+          weight: 20
+        - name: blog
+          pageRef: /blog
+          weight: 30
+        - name: contact
+          pageRef: /pages/contact
+          weight: 40
+      secondary:
+        - name: Shop
+          pageRef: shop
+          url: /shop
+          weight: 10
+        - name: guitars
+          pageRef: guitars
+          url: /shop/guitars
+          parent: shop
+          weight: 10
+        - name: accessories
+          pageRef: accessories
+          url: /shop/accessories
+          parent: shop
+          weight: 20

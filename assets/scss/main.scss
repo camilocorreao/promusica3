@@ -28,8 +28,8 @@
 // @import "bootstrap/scss/forms";
 @import "bootstrap/scss/buttons";
 @import "bootstrap/scss/transitions";
-// @import "bootstrap/scss/dropdown";
-// @import "bootstrap/scss/button-group";
+@import "bootstrap/scss/dropdown";
+@import "bootstrap/scss/button-group";
 @import "bootstrap/scss/nav";
 @import "bootstrap/scss/navbar";
 @import "bootstrap/scss/card";
@@ -61,3 +61,16 @@
 
 // import syntx highlighting css
 @import "syntax.scss";
+
+@import "bootstrap/scss/bootstrap";
+
+$font-family-sans-serif: "Roboto", sans-serif;
+$font-family-monospace: "Menlo", monospace;
+
+body {
+  font-family: $font-family-sans-serif;
+}
+
+code {
+  font-family: $font-family-monospace;
+}

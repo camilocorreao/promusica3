@@ -1,0 +1,92 @@
+params:
+  logo: "img/logo.png"
+  dateFormat: "2.1.2006"
+  widgets:
+    - search
+    - recent-posts
+    - related-posts
+    - post-categories
+    - post-tags
+  # control the number of items in widgets
+  relatedPosts: 5
+  recentPosts: 5
+  # postTags: 10
+
+  # modules
+  module:
+    mounts:
+      - source: node_modules/bootstrap/scss
+        target: assets/scss/bootstrap
+      - source: node_modules/bootstrap/dist/js/bootstrap.min.js
+        target: assets/js/bootstrap.min.js
+
+  contact:
+    # https://schema.org/PostalAddress
+    address:
+      # first record is for schema
+      - name: Address
+        streetAddress:
+          - Böcklinstrasse 100
+        addressLocality: 1020 Wien
+        addressRegion:
+        postalCode:
+        addressCountry: Austria
+        # hasMap
+        url: https://goo.gl/maps/ha3CkTm5muAP3KD9A
+        geo: #coordinates
+        icon: icons/bootstrap/geo-alt.svg
+        # icon: bi bi-geo-alt
+        disable: false
+    # postal address is just for contact details display
+    # servicePostalAddress:
+    #   postOfficeBoxNumber:
+    #   addressLocality: Pyrmont
+    #   addressRegion: NSW
+    #   postalCode: 2009
+    #   addressCountry: Australia
+
+    openingHours:
+      - name: Opening Hours
+        icon: icons/bootstrap/clock.svg
+        # icon: bi bi-clock
+        hours:
+          # date is ignored for display and schema
+          - day: Monday
+            open: 2021-01-01T14:00:00Z
+            close: 2021-01-01T18:00:00Z
+          - day: Tuesday
+            open: 2021-01-01T14:00:00
+            close: 2021-01-01T18:00:00
+          - day: Wednesday
+            open: 2021-01-01T14:00:00
+            close: 2021-01-01T18:00:00
+          - day: Thursday
+            open: 2021-01-01T14:00:00
+            close: 2021-01-01T17:00:00
+          - day: Friday
+            open: 2021-01-01T14:00:00
+            close: 2021-01-01T18:00:00
+          - day: Saturday/Sunday
+            custom: Nach Vereinbarung
+    telephone:
+      # first record appears in schema data
+      - name: Phone
+        text: (0676) 777 4149
+        url: "tel:+61280043293"
+        icon: icons/bootstrap/telephone.svg
+        # icon: bi bi-phone
+        disable: false
+    # mobile
+    # - text:
+    #   url:
+    #   icon: icons/bootstrap/telephone
+    #   disable: false
+    email:
+      - name: Email
+        text: support@promusica.co
+        url: "mailto:camilo@promusica.co"
+        icon: icons/bootstrap/envelope.svg
+        # icon: bi bi-envelope
+        disable: false
+        desc: Email Address
+  # only for contact details display

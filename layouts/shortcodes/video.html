@@ -1,0 +1,13 @@
+{{ $mp4URL := .Get "mp4_url" }}
+{{ $webmURL := .Get "webm_url" }}
+{{ $posterURL := .Get "poster_url" }}
+{{ $width := .Get "width" | default "640" }}
+{{ $height := .Get "height" | default "360" }}
+{{ $controls := .Get "controls" | default "true" }}
+
+<video width="{{ $width }}" height="{{ $height }}" controls="{{ $controls }}" poster="{{ $posterURL }}">
+  <source src="{{ $mp4URL }}" type="video/mp4">
+  <source src="{{ $webmURL }}" type="video/webm">
+  Your browser does not support the video tag.
+</video>
+

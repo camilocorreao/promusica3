@@ -1,10 +1,11 @@
 
-$heights : 5, 10, 15, 20;
+$heights : 5, 10, 15, 20, 25, 30, 40;
 
 @each $height in $heights {
     .img-h-#{$height} {
         max-height: #{$height}rem;
         object-fit: contain;
+        border-radius: 20px; // not working starting 900 px
     }
 }
 
@@ -32,3 +33,35 @@ $heights : 5, 10, 15, 20;
     height: 55px;
     margin-top: 5px;
   }
+
+// .custom-rounded {
+// border-radius: 15px; /* Adjust the radius value to your preference */
+// }
+
+// /* Apply larger border-radius for screens with a minimum width of 768px */
+// @media (min-width: 768px) {
+//     .custom-rounded {
+//       border-radius: 20px;
+//     }
+//   }
+  
+// /* Apply even larger border-radius for screens with a minimum width of 1200px */
+// @media (min-width: 900px) {
+// .custom-rounded {
+//     border-radius: 30px;
+//     }
+// }
+
+// /* Apply smaller border-radius for screens with a maximum width of 576px */
+// @media (max-width: 576px) {
+// .custom-rounded {
+//     border-radius: 5px;
+//     }
+// }
+ 
+  
+  
+  
+  
+  
+  
