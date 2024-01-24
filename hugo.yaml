@@ -103,6 +103,11 @@ languages:
           pageRef: contact
           url: /pages/contact
           weight: 20
+      footer:
+        - name: Impressum
+          pageRef: impressum
+          url: /pages/impressum
+          weight: 10
   en:
     contentDir: content/en
     disabled: false
@@ -155,6 +160,11 @@ languages:
         - name: contact
           pageRef: contact
           url: /pages/contact
+          weight: 10
+      footer:
+        - name: Impressum
+          pageRef: impressum
+          url: /pages/impressum
           weight: 10
 
   es:

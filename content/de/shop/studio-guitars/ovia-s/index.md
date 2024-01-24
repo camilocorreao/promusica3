@@ -4,8 +4,7 @@ categories: ["Studio guitar"]
 date: 2023-12-10T21:56:13-04:00
 tags: ["Ovia"]
 draft: false
-images:
-  ["ovias-0.jpg", "ovias-1.jpg", "ovias-2.jpg", "ovias-3.jpg", "ovias-4.jpg"]
+images: ["ovias-1.jpg"]
 price: "€ 290,00"
 source: https://www.promusica.co/
 ---

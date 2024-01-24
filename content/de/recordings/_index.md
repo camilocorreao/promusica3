@@ -7,7 +7,3 @@ images: []
 ---
 
 "Hier präsentieren wir eine exklusive Auswahl unserer erstklassigen Produktionen."
-
-Englische Übersetzung:
-
-"Here we present an exclusive selection of our premium productions."

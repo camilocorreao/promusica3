@@ -4,7 +4,7 @@ categories: ["Studio guitar"]
 date: 2023-12-10T21:56:13-04:00
 tags: ["Godin"]
 price: "€ 1.900,00"
-images: ["godin-grand-concert.jpg"]
+images: ["godin-grand-concert1.jpg"]
 source: https://www.promusica.co/
 ---
 

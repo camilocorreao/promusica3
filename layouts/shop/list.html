@@ -20,9 +20,11 @@
                 {{- if reflect.IsSlice . -}}
                   {{- with index . 0 -}}
                     {{- with $image := $post.Resources.GetMatch . }}
+                    <a href="{{ .Permalink }}">  
                       <img src="{{ $image.RelPermalink }}" class="img-fluid img-h-15"
-                        width="{{ .Width }}" height="{{ .Height }}"
-                        alt="{{ printf "Image for post %s" $post.Title }}" title="{{ $post.Title }}">
+                          width="{{ .Width }}" height="{{ .Height }}"
+                          alt="{{ printf "Image for post %s" $post.Title }}" title="{{ $post.Title }}">
+                      </a>
                     {{- end -}}
                   {{- end -}}
                 {{- end -}}
