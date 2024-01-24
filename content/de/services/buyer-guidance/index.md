@@ -12,8 +12,8 @@ Die **leichte Spielbarkeit** ist definitiv eine Voraussetzung für ein erfolgrei
 
 Deswegen:
 
-- Bereiten die gewünschten Gitarren vor Ihren Besuch vor:
-- Wir geben **neue Saiten** und
+- bereiten wir die gewünschten Gitarren vor Ihren Besuch vor,
+- wir geben **neue Saiten** und
 - prüfen die **Spielbarkeit**
 
 Nach Ihren Test können wir noch nach Wunsch Ihr Intrument von unseren professionellen Gitarrenbauer nach Ihren Bedürfnissen nachregulieren lassen.
