@@ -42,14 +42,14 @@
                   <div class="price-header">Price</div>
                   <div class="price-body">{{ with .Params.price }} {{ . }} {{ end }}</div>
                 </div>
-                {{ with .PublishDate }}
+                <!-- {{ with .PublishDate }}
                   <span class="ms-auto">
                       {{ partial "svg-icon" "icons/bootstrap/calendar2-date.svg" }}
                       <time datetime="{{ .Format "2006-01-02" }}">
                         {{ .Format site.Params.dateFormat }}
                       </time>
                   </span>
-                {{ end }}
+                {{ end }} -->
               </div>
 
             </div>

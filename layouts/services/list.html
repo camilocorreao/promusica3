@@ -20,9 +20,9 @@
                 {{- if reflect.IsSlice . -}}
                   {{- with index . 0 -}}
                     {{- with $image := $post.Resources.GetMatch . }}
-                      <img src="{{ $image.RelPermalink }}" class="img-fluid img-h-10"
+                      <a href="{{ .Permalink }}"><img src="{{ $image.RelPermalink }}" class="img-fluid img-h-10"
                         width="{{ .Width }}" height="{{ .Height }}"
-                        alt="{{ printf "Image for post %s" $post.Title }}" title="{{ $post.Title }}">
+                        alt="{{ printf "Image for post %s" $post.Title }}" title="{{ $post.Title }}"></a>
                     {{- end -}}
                   {{- end -}}
                 {{- end -}}
@@ -47,14 +47,14 @@
                       {{ . }} minute{{ if gt . 1 }}s{{ end  }}
                     </span>
                   {{ end }} -->
-                {{ with .PublishDate }}
+                <!-- {{ with .PublishDate }}
                   <span class="ms-auto">
                       {{ partial "svg-icon" "icons/bootstrap/calendar2-date.svg" }}
                       <time datetime="{{ .Format "2006-01-02" }}">
                         {{ .Format site.Params.dateFormat }}
                       </time>
                   </span>
-                {{ end }}
+                {{ end }} -->
               </div>
               <div class="price-table">
                 <div class="price-header">Price:</div>
