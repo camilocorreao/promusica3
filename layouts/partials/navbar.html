@@ -15,7 +15,7 @@
               href="{{ .URL }}" {{ if eq .Params.blank true }} target="_blank" rel="noopener"{{ end }}>{{ .Name }}</a>
             </li>
             {{ end }}
-
+            <div class="d-flex justify-content-end">
             <div class="dropdown dropend align-self-center">
               {{ $currentPage := . }}
               {{ range .Site.Menus.secondary }}
@@ -39,28 +39,27 @@
                 </li>
               {{ end }}
             </div>
-
-            <div class="d-flex align-items-center">              
-              <li class="btn-group nav-item px-3 ms-4">
-                {{ range .Site.Menus.tertiary }}
-                <a class="btn btn-outline-success btn-sm" href="{{ .URL }}" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ .Name }}</a>
-                {{ end }}
-              </li>
-
-              <li class="btn-group nav-item px-3 ms-4">
-                {{ if .IsTranslated }}
-                {{ range .Translations }}
-                <a class="btn btn-outline-warning btn-sm" href="{{ .Permalink }}" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ .Site.Language.LanguageName }}</a>
-                {{ end }}
-                {{ else }}
-                {{ if eq .Site.Language.Lang "de" }}
-                <a class="dropdown-item" href="#">Deutsch</a>
-                {{ else }}
-                <a class="dropdown-item" href="#">English</a>
-                {{ end }}
-                {{ end }}
-              </li>
-            </div>        
+              <div class="d-flex align-items-center">              
+                <li class="btn-group nav-item px-3 ms-4">
+                  {{ range .Site.Menus.tertiary }}
+                  <a class="btn btn-outline-success btn-sm" href="{{ .URL }}" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ .Name }}</a>
+                  {{ end }}
+                </li>
+                <li class="btn-group nav-item px-3 ms-4">
+                  {{ if .IsTranslated }}
+                  {{ range .Translations }}
+                  <a class="btn btn-outline-warning btn-sm" href="{{ .Permalink }}" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ .Site.Language.LanguageName }}</a>
+                  {{ end }}
+                  {{ else }}
+                  {{ if eq .Site.Language.Lang "de" }}
+                  <a class="dropdown-item" href="#">Deutsch</a>
+                  {{ else }}
+                  <a class="dropdown-item" href="#">English</a>
+                  {{ end }}
+                  {{ end }}
+                </li>
+              </div> 
+          </div>
           </ul>  
         </div>
       </div>   

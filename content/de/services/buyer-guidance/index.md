@@ -21,4 +21,4 @@ Nach Ihren Test können wir noch nach Wunsch Ihr Intrument von unseren professio
 - Regulierung auf Leichte Spielbarkeit: Sattel und Brücke Nachregulierung
 - Gewünschte Saiten, Marke und Material für klassische Gitarre: Nylon oder Carbon Saiten.
 
-Rufen sie mich an oder senden sie mir eine Nachricht mit ihre Information und Wunschtermin.
+Rufen Sie mich an oder senden Sie mir eine Nachricht mit ihre Information und Wunschtermin.
