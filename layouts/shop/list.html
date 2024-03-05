@@ -20,7 +20,7 @@
                 {{- if reflect.IsSlice . -}}
                   {{- with index . 0 -}}
                     {{- with $image := $post.Resources.GetMatch . }}
-                    <a href="{{ .Permalink }}">  
+                    <a href="{{ .RelPermalink }}">  
                       <img src="{{ $image.RelPermalink }}" class="img-fluid img-h-15"
                           width="{{ .Width }}" height="{{ .Height }}"
                           alt="{{ printf "Image for post %s" $post.Title }}" title="{{ $post.Title }}">
@@ -36,7 +36,14 @@
               </header>
               <div class="pb-3">
                 {{ .Summary }}
+                {{ if .Truncated }}
+      <!-- This <div> includes a read more link, but only if the summary is truncated... -->
+                 <a class="text-decoration-none" href="{{ .RelPermalink }}">Mehr lesen…</a>
+                 {{ end }}
               </div>
+              <!-- <div class="pb-3">
+                {{ .Summary }}
+              </div> -->
               <div class="mt-auto d-flex">
                 <div class="price-table">
                   <div class="price-header">Price</div>

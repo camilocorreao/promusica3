@@ -4,7 +4,7 @@ date: 2023-12-11T11:33:31+01:00
 categories: ["Kaufberatung"]
 tags: ["Gitarre"]
 draft: false
-images: [5_gitarrenunterricht.jpg]
+images: [2_gitarrenunterricht.jpg]
 source: https://www.promusica.co/
 ---
 
@@ -12,13 +12,15 @@ Die **leichte Spielbarkeit** ist definitiv eine Voraussetzung für ein erfolgrei
 
 Deswegen:
 
-- bereiten wir die gewünschten Gitarren vor Ihren Besuch vor,
+- bereiten wir die gewünschten Gitarren vor deinem Besuch vor,
 - wir geben **neue Saiten** und
-- prüfen die **Spielbarkeit**
+- prüfen die **Spielbarkeit**.
 
-Nach Ihren Test können wir noch nach Wunsch Ihr Intrument von unseren professionellen Gitarrenbauer nach Ihren Bedürfnissen nachregulieren lassen.
+Nach deinen Test können wir noch nach Wunsch das Intrument von unseren professionellen Gitarrenbauer nach deinen Bedürfnissen nachregulieren lassen.
 
 - Regulierung auf Leichte Spielbarkeit: Sattel und Brücke Nachregulierung
 - Gewünschte Saiten, Marke und Material für klassische Gitarre: Nylon oder Carbon Saiten.
 
-Rufen Sie mich an oder senden Sie mir eine Nachricht mit ihre Information und Wunschtermin.
+Ruf mich an oder schreibe mir eine Nachricht mit deinen Wünschen und deinem Wunschtermin.
+
+Ich freue mich darauf, dich kennenzulernen und dir beim Gitarre lernen zu helfen!
