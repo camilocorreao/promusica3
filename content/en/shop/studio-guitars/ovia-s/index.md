@@ -1,5 +1,5 @@
 ---
-title: "Ovia Vienna 30s"
+title: "Ovia Vienna 30s (spruce top)"
 categories: ["Studio guitar"]
 date: 2022-04-26T21:56:13-04:00
 tags: ["Ovia"]
