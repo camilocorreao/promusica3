@@ -1,0 +1,376 @@
+{{ define "main" }}
+<section class="main">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+      {{ partial "title" . }}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        {{ if .PublishDate }}
+        {{ $publishDate := .PublishDate.Format site.Params.dateFormat }}
+        {{ $lastMod := .Lastmod.Format site.Params.dateFormat }}
+        {{ partial "svg-icon" "icons/bootstrap/calendar2-date.svg" }}
+        <time datetime="{{ .PublishDate.Format " 2006-01-02" }}">
+          {{ $publishDate }}
+        </time>
+        {{ if ne $publishDate $lastMod }}
+        <em> last updated on <time datetime="{{ .Lastmod.Format " 2006-01-02" }}">{{ $lastMod }}</time></em>
+        {{ end }}
+        {{ end }}
+      </div>
+      <div class="col-md-6 d-flex">
+
+        <span class="ms-md-auto">
+          {{ with .Params.preis }} {{ . }}
+        </span>
+        {{ end }}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        {{ with ( .GetTerms "categories" ) }}
+        {{ partial "svg-icon" "icons/bootstrap/folder.svg" }}
+        {{ range $index, $category := . }}
+        {{ if gt $index 0 }} | {{ end }}
+        <a href="{{ $category.Permalink }}" class="text-decoration-none">
+          {{ $category.Title | humanize | title }}
+        </a>
+        {{ end }}
+        {{ end }}
+      </div>
+      <div class="col-md-6 d-flex">
+        {{ with ( .GetTerms "tags" ) }}
+        <span class="ms-md-auto">
+          {{ partial "svg-icon" "icons/bootstrap/tags.svg" }}
+          {{ range $index, $tag := . }}
+          {{ if gt $index 0 }} | {{ end }}
+          <a href="{{ $tag.Permalink }}" class="text-decoration-none">
+            {{ $tag.Title | humanize | title }}
+          </a>
+          {{ end }}
+        </span>
+        {{ end }}
+      </div>
+    </div>
+  <div class="container text-start">
+    <div class="row mx-auto">
+      <div class="col-md-6 align-self-center">
+        {{- $post := . -}}
+        {{- with .Params.images -}}
+        {{- if reflect.IsSlice . -}}
+        {{- with index . 0 -}}
+        {{- with $image := $post.Resources.GetMatch . }}
+        <img src="{{ $image.RelPermalink }}" class="img-fluid img-h-30 post-summary__image"
+        width="{{ .Width }}" height="{{ .Height }}"
+        alt="{{ printf " Image for post %s" $post.Title }}" title="{{ $post.Title }}">
+        {{- end -}}
+        {{- end -}}
+        {{- end -}}
+        {{- end -}}
+      </div>
+      <div class="col-md-6 mx-auto">
+        {{ .Content }}
+      </div>
+  </div>
+
+  <div class="container text-start">
+    <div class="row mx-auto p-2">
+      <div class="col-md-4 ms-md-auto align-self-center">
+        {{- $post := . -}}
+        {{- with .Params.images -}}
+        {{- if reflect.IsSlice . -}}
+        {{- with index . 1 -}}
+        {{- with $image := $post.Resources.GetMatch . }}
+        <img src="{{ $image.RelPermalink }}" class="img-fluid img-h-25 post-summary__image"
+        width="{{ .Width }}" height="{{ .Height }}"
+        alt="{{ printf " Image for post %s" $post.Title }}" title="{{ $post.Title }}">
+        {{- end -}}
+        {{- end -}}
+        {{- end -}}
+        {{- end -}}
+      </div>
+      <div class="col-md-4 ms-md-auto">
+        {{- $post := . -}}
+        {{- with .Params.images -}}
+        {{- if reflect.IsSlice . -}}
+        {{- with index . 2 -}}
+        {{- with $image := $post.Resources.GetMatch . }}
+        <img src="{{ $image.RelPermalink }}" class="img-fluid img-h-25 post-summary__image"
+        width="{{ .Width }}" height="{{ .Height }}"
+        alt="{{ printf " Image for post %s" $post.Title }}" title="{{ $post.Title }}">
+        {{- end -}}
+        {{- end -}}
+        {{- end -}}
+        {{- end -}}
+      </div>
+  </div>
+
+  <div class="container text-start">
+    <div class="row mx-auto p-2">
+      <div class="col-md-4 ms-md-auto align-self-center">
+        {{- $post := . -}}
+        {{- with .Params.images -}}
+        {{- if reflect.IsSlice . -}}
+        {{- with index . 3 -}}
+        {{- with $image := $post.Resources.GetMatch . }}
+        <img src="{{ $image.RelPermalink }}" class="img-fluid img-h-25 post-summary__image"
+        width="{{ .Width }}" height="{{ .Height }}"
+        alt="{{ printf " Image for post %s" $post.Title }}" title="{{ $post.Title }}">
+        {{- end -}}
+        {{- end -}}
+        {{- end -}}
+        {{- end -}}
+      </div>
+      <div class="col-md-4 ms-md-auto">
+        {{- $post := . -}}
+        {{- with .Params.images -}}
+        {{- if reflect.IsSlice . -}}
+        {{- with index . 4 -}}
+        {{- with $image := $post.Resources.GetMatch . }}
+        <img src="{{ $image.RelPermalink }}" class="img-fluid img-h-25 post-summary__image"
+        width="{{ .Width }}" height="{{ .Height }}"
+        alt="{{ printf " Image for post %s" $post.Title }}" title="{{ $post.Title }}">
+        {{- end -}}
+        {{- end -}}
+        {{- end -}}
+        {{- end -}}
+      </div>
+  </div>
+
+    </div>
+
+  </div>
+</section>
+<!--Tutorial Future Web Design -->
+<section>
+  <div class="container">
+    <div class="row d-flex justify-content-center">
+      <div class="col-lg-9 col-xl-8">
+        <!-- {{ $array := (slice "zero" "one" "two" "three" ) }}
+        {{ range $elem_index, $elem_val := $array }}
+          {{ $elem_index }} -- {{ $elem_val }} <br>
+        {{ end }} -->
+        {{ $images := .Resources.ByType "image" }}
+        {{ $ratio := (slice 2 3 ) }}
+
+        <!-- {{ range $index, $value :=  $images }}
+          <img src="{{ $value.RelPermalink }}" alt="Image {{ add $index 1 }}" class="img-fluid pb-3 ">
+        {{ end }} -->
+
+        <!-- bootstrap code here -->
+        {{ $targetWidth := 500 }}
+
+        <div id="carouselExampleIndicators" class="carousel slide mb-5" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            {{ range $index, $value :=  $images }}
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="{{ $index }}" 
+            {{ if eq $index 0 }}class="active" aria-current="true" {{ end }}aria-label="Slide {{ add $index 1}}"></button>
+            {{ end }}
+          </div>
+          <div class="carousel-inner">
+            {{ range $index, $value :=  $images }}
+            {{ $width := $value.Width }}
+            {{ $heightRatio := div (index $ratio 1 | float) (index $ratio 0 | float) }}
+            {{ $height := mul $width $heightRatio | int }}
+            {{ $fill := $value.Fill (printf "%dx%d" $width $height) }}
+            <div class="carousel-item{{ if eq $index 0 }} active{{ end }}">
+              <img src="{{ $fill.RelPermalink }}" class="d-block w-100 img-fluid" alt="Slide {{ add $index 1}}">
+            </div>
+            {{ end }}
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+
+        </div>
+
+        <!-- Here end the bootstrap carousel code -->
+      </div>
+      <!-- <div class="col-md-6 mx-auto">
+        {{ .Content }}
+      </div> -->
+    </div>
+  </div>
+
+</section>
+
+<section>
+  <div class="container">
+    <div class="row d-flex justify-content-center">
+      <div class="col-lg-9 col-xl-8">
+        {{ $images := .Resources.ByType "image" }}
+        {{ $ratio := (slice 2 3) }}
+
+        <div id="carouselExampleIndicators" class="carousel slide mb-5" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            {{ range $index, $value :=  $images }}
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="{{ $index }}" 
+            {{ if eq $index 0 }}class="active" aria-current="true" {{ end }}aria-label="Slide {{ add $index 1}}"></button>
+            {{ end }}
+          </div>
+          <div class="carousel-inner">
+            {{ range $index, $value :=  $images }}
+            {{ $width := $value.Width }}
+            {{ $heightRatio := div (index $ratio 0 | float) (index $ratio 1 | float) }}
+            {{ $height := mul $width $heightRatio | int }}
+            {{ $fill := $value.Fill (printf "%dx%d" $width $height) }}
+            <div class="carousel-item{{ if eq $index 0 }} active{{ end }}">
+              <img src="{{ $fill.RelPermalink }}" class="d-block w-100 img-fluid" alt="Slide {{ add $index 1}}">
+            </div>
+            {{ end }}
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- next Based on Pure CSS carousel with Thumbnails -->
+<section>
+  <div class="container">
+    <div class="carousel">
+      <!-- {{ $array := (slice "zero" "one" "two" "three" ) }}
+      {{ range $elem_index, $elem_val := $array }}
+        {{ $elem_index }} -- {{ $elem_val }} <br>
+      {{ end }} -->
+
+      {{ range $index, $value :=  $images }}
+          <img src="{{ $value.RelPermalink }}" alt="Image {{ $index }}" class="img-fluid pb-3 ">
+
+      {{ end }}
+
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+      <div class="carousel">
+        <!-- {{ $array := (slice "zero" "one" "two" "three" ) }}
+      {{ range $elem_index, $elem_val := $array }}
+        {{ $elem_index }} -- {{ $elem_val }} <br>
+      {{ end }} -->
+      {{ range $index, $value :=  $images }}
+          <input type="radio" name="slides" checked="checked" id="slide-1">
+          <input type="radio" name="slides" id="slide-2">
+          <input type="radio" name="slides" id="slide-3">
+          <input type="radio" name="slides" id="slide-4">
+          <input type="radio" name="slides" id="slide-5">
+          <input type="radio" name="slides" id="slide-6">
+      {{ end }}
+          <ul class="carousel__slides">
+            {{ range $index, $value :=  $images }}
+              <li class="carousel__slide">
+                  <figure>
+                      <div>
+
+                          <img src="{{ $value.RelPermalink }}" alt="Image {{ add $index 1 }}" class="img-fluid pb-3 ">
+
+
+
+                          <!-- <img src="https://picsum.photos/id/1041/800/450" alt=""> -->
+                      </div>
+                      <figcaption>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                          <span class="credit">Photo: proMusica</span>
+                      </figcaption>
+                  </figure>
+              </li>
+              {{ end }}
+              <li class="carousel__slide">
+                  <figure>
+                      <div>
+                          <img src="https://picsum.photos/id/1043/800/450" alt="">
+                      </div>
+                      <figcaption>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                          <span class="credit">Photo: Christian Joudrey</span>
+                      </figcaption>
+                  </figure>
+              </li>
+              <li class="carousel__slide">
+                  <figure>
+                      <div>
+                          <img src="https://picsum.photos/id/1044/800/450" alt="">
+                      </div>
+                      <figcaption>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                          <span class="credit">Photo: Steve Carter</span>
+                      </figcaption>
+                  </figure>
+              </li>
+              <li class="carousel__slide">
+                  <figure>
+                      <div>
+                          <img src="https://picsum.photos/id/1045/800/450" alt="">
+                      </div>
+                      <figcaption>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                          <span class="credit">Photo: Aleksandra Boguslawska</span>
+                      </figcaption>
+                  </figure>
+              </li>
+              <li class="carousel__slide">
+                  <figure>
+                      <div>
+                          <img src="https://picsum.photos/id/1049/800/450" alt="">
+                      </div>
+                      <figcaption>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                          <span class="credit">Photo: Rosan Harmens</span>
+                      </figcaption>
+                  </figure>
+              </li>
+              <li class="carousel__slide">
+                  <figure>
+                      <div>
+                          <img src="https://picsum.photos/id/1052/800/450" alt="">
+                      </div>
+                      <figcaption>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                          <span class="credit">Photo: Annie Spratt</span>
+                      </figcaption>
+                  </figure>
+              </li>
+          </ul>
+          <ul class="carousel__thumbnails">
+              <li>
+                  <label for="slide-1"><img src="https://picsum.photos/id/1041/150/150" alt=""></label>
+              </li>
+              <li>
+                  <label for="slide-2"><img src="https://picsum.photos/id/1043/150/150" alt=""></label>
+              </li>
+              <li>
+                  <label for="slide-3"><img src="https://picsum.photos/id/1044/150/150" alt=""></label>
+              </li>
+              <li>
+                  <label for="slide-4"><img src="https://picsum.photos/id/1045/150/150" alt=""></label>
+              </li>
+              <li>
+                  <label for="slide-5"><img src="https://picsum.photos/id/1049/150/150" alt=""></label>
+              </li>
+              <li>
+                  <label for="slide-6"><img src="https://picsum.photos/id/1052/150/150" alt=""></label>
+              </li>
+          </ul>
+      </div>
+  </div>
+</section>
+
+{{ end }}

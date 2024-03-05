@@ -54,11 +54,10 @@
 
 {{ end }}
 
-<form id="{{ .id }}" 
+<form
   class="contact-form needs-validation" 
   enctype="multipart/form-data"
-  {{/*  action="https://formsubmit.co/54e5647940839fe188cb8e9ab01d5947" method="POST"  */}}
->
+  action="https://usebasin.com/f/0a1c60923497" method="POST" id="js-contactForm">
   <div class="container m-0 p-0">
     <div class="row pt-0">
       {{ range .inputs }}
@@ -66,37 +65,13 @@
       {{ end }}
     </div>
   </div>
-  <button type="submit" class="btn btn-outline-primary btn-lrg mt-3" id='js-submit'>Send</button>
+  <!-- <button type="submit" class="btn btn-outline-primary btn-lrg mt-3" id='js-submit'>Send</button> -->
+  <button class="g-recaptcha btn btn-outline-success mb-2" data-sitekey="6Lew3SMUAAAAAJ82QoS7gqOTkRI_dhYrFy1f7Sqy" data-callback='onSubmit'>Submit</button>
+  
+<script>
+  function onSubmit(token) {
+      document.getElementById("js-contactForm").submit();
+  }
+</script>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </form>
-
-
-{{/*  
-
-  example code to call template
-
-    <div class="row">
-    <div class="col">
-      {{ with .params.form.title }}
-      <h3>{{ . }}</h3>
-      {{ end }} 
-      {{ partial "content/contact-form" .params.form }}
-    </div>
-  </div>
-
-  
-  
-  description:
-  https://getbootstrap.com/docs/5.0/forms/overview/#form-text
-  disabled:
-  https://getbootstrap.com/docs/5.0/forms/overview/#disabled-forms
-
-  readonly: true
-  https://getbootstrap.com/docs/5.0/forms/form-control/#readonly
-
-  class could include
-  https://getbootstrap.com/docs/5.0/forms/form-control/#sizing
-
-  form-control-plaintext (remove form-control)
-  
-  */}}
-

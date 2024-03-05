@@ -28,9 +28,9 @@ $cyan:    #0dcaf0 !default;
 // scss-docs-start theme-color-variables
 $primary:       #1114e4;
 $secondary:     $gray-700 !default;
-$success:       $green !default;
+$success:       rgb(161, 207, 74) !default;
 $info:          $cyan !default;
-$warning:       $yellow !default;
+$warning:       #e9d565da !default;
 $danger:        $red !default;
 $light:         $gray-100 !default;
 $dark:          $gray-900 !default;
@@ -42,7 +42,7 @@ $dark:          $gray-900 !default;
 // $body-bg:                   $light;
 $body-color:                $gray-800;
 
-$border-width:                2px;
+$border-width:                1px;
 
 // scss-docs-start border-radius-variables
 $border-radius:               .25rem !default;
@@ -55,3 +55,31 @@ $border-radius-pill:          50rem !default;
 // $card-border-width:                 $border-width !default;
 $card-border-radius:                $border-radius-sm;
 // scss-docs-end card-variables
+
+$carousel-control-color:             #85452f;
+$carousel-control-width:             15%;
+$carousel-control-opacity:           .5;
+$carousel-control-hover-opacity:     .9;
+$carousel-control-transition:        opacity .15s ease;
+
+$carousel-indicator-width:           30px;
+$carousel-indicator-height:          3px;
+$carousel-indicator-hit-area-height: 10px;
+$carousel-indicator-spacer:          3px;
+$carousel-indicator-opacity:         .5;
+$carousel-indicator-active-bg:       #85452f;
+$carousel-indicator-active-opacity:  1;
+$carousel-indicator-transition:      opacity .6s ease;
+
+$carousel-caption-width:             70%;
+$carousel-caption-color:             $white;
+$carousel-caption-padding-y:         1.25rem;
+$carousel-caption-spacer:            1.25rem;
+
+$carousel-control-icon-width:        2rem;
+
+$carousel-control-prev-icon-bg:      url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$carousel-control-color}'><path d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/></svg>");
+$carousel-control-next-icon-bg:      url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$carousel-control-color}'><path d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/></svg>");
+
+$carousel-transition-duration:       .6s;
+$carousel-transition:                transform $carousel-transition-duration ease-in-out; // Define transform transition first if using multiple transitions (e.g., `transform 2s ease, opacity .5s ease-out`)

@@ -1,0 +1,320 @@
+baseURL: "/"
+# for xml output
+# for website
+title: proMusica
+# alternate copyright company text
+copyright: Camilo Correa
+# controls number of pages displayed on list pages
+defaultContentLanguage: "de"
+paginate: 5
+# controls the summary length on list pages
+summaryLength: 40
+# this is required so that Hugo will render markdown to HTML
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+enableInlineShortcodes: true
+
+related:
+  # pages which are newer than the current page
+  includeNewer: true
+  # seach terms
+  indices:
+    - applyFilter: true
+      cardinalityThreshold: 0
+      name: categories
+      pattern: ""
+      toLower: true
+      type: basic
+      weight: 100
+    - applyFilter: false
+      cardinalityThreshold: 0
+      name: date
+      pattern: ""
+      toLower: false
+      type: basic
+      weight: 10
+    - applyFilter: true
+      cardinalityThreshold: 0
+      name: tags
+      pattern: ""
+      toLower: true
+      type: basic
+      weight: 80
+  threshold: 80
+  # lowercase search query
+  toLower: true
+
+languages:
+  de:
+    contentDir: content/de
+    disabled: false
+    languageCode: "de-at"
+    languageName: Deutsch
+    params:
+      color: blue # as an example of custom params
+    menu:
+      main:
+        - name: Studio
+          pageRef: /
+          url: /
+          weight: 10
+        - name: Über-mich
+          pageRef: about
+          url: /pages/about
+          weight: 20
+        - name: Dienstleistung
+          pageRef: services
+          url: /services
+          weight: 30
+        - name: Aufnahmen
+          pageRef: recordings
+          url: /recordings
+          weight: 40
+
+      secondary:
+        - name: Shop
+          pageRef: Shop
+          url: /shop
+          weight: 10
+        - name: Konzertgitarren
+          pageRef: concert-guitars
+          url: /shop/concert-guitars
+          parent: Shop
+          weight: 30
+        - name: Studiogitarren
+          pageRef: studio-guitars
+          url: /shop/studio-guitars
+          parent: Shop
+          weight: 10
+        - name: Dowina
+          pageRef: Dowina
+          url: /shop/dowina
+          parent: Shop
+          weight: 20
+        - name: Zubehör
+          pageRef: accessories
+          url: /shop/accessories
+          parent: Shop
+          weight: 40
+      tertiary:
+        - name: Kontakt
+          pageRef: contact
+          url: /pages/contact
+          weight: 20
+      footer:
+        - name: Impressum
+          pageRef: impressum
+          url: /pages/impressum
+          weight: 10
+  en:
+    contentDir: content/en
+    disabled: false
+    languageCode: "en-us"
+    languageName: English
+    menu:
+      main:
+        - name: studio
+          pageRef: /
+          url: /
+          weight: 10
+        - name: "about-me"
+          pageRef: about
+          url: /pages/about
+          weight: 20
+        - name: services
+          pageRef: services
+          url: /services
+          weight: 30
+        - name: recordings
+          pageRef: recordings
+          url: /recordings
+          weight: 40
+      secondary:
+        - name: shop
+          pageRef: shop
+          url: /shop
+          weight: 10
+        - name: concert guitars
+          pageRef: concert-guitars
+          url: /shop/concert-guitars
+          parent: shop
+          weight: 30
+        - name: studio guitars
+          pageRef: studio-guitars
+          url: /shop/studio-guitars
+          parent: shop
+          weight: 10
+        - name: Dowina
+          pageRef: Dowina
+          url: /shop/dowina
+          parent: shop
+          weight: 20
+        - name: accessories
+          pageRef: accessories
+          url: /shop/accessories
+          parent: shop
+          weight: 40
+      tertiary:
+        - name: contact
+          pageRef: contact
+          url: /pages/contact
+          weight: 10
+      footer:
+        - name: Impressum
+          pageRef: impressum
+          url: /pages/impressum
+          weight: 10
+
+  es:
+    contentDir: content/es
+    disabled: true
+    languageCode: "es-es"
+    languageName: Español
+    menu:
+      main:
+        - name: estudio
+          pageRef: /
+          weight: 10
+        - name: "acerca de mí"
+          pageRef: /pages/about
+          weight: 20
+        - name: blog
+          pageRef: /blog
+          weight: 30
+        - name: contact
+          pageRef: /pages/contact
+          weight: 40
+      secondary:
+        - name: Shop
+          pageRef: shop
+          url: /shop
+          weight: 10
+        - name: guitars
+          pageRef: guitars
+          url: /shop/guitars
+          parent: shop
+          weight: 10
+        - name: accessories
+          pageRef: accessories
+          url: /shop/accessories
+          parent: shop
+          weight: 20
+
+  # highlight:
+  #   anchorLineNos: false
+  #   codeFences: true
+  #   guessSyntax: false
+  #   hl_Lines: ""
+  #   hl_inline: false
+  #   lineAnchors: ""
+  #   lineNoStart: 1
+  #   lineNos: false
+  #   lineNumbersInTable: true
+  #   noClasses: false # false needs a stylesheet
+  #   noHl: false
+  #   style: monokai
+  #   tabWidth: 4
+# config for related posts
+
+params:
+  defaultDescription: "Wir bieten professionellen Gitarrenunterricht an und unterstützen Sie beim Erwerb Ihrer eigenen Gitarre. Darüber hinaus ermöglichen wir Ihnen die Realisierung Ihres Podcasts oder Ihrer Musikaufnahmen. Oder buchen Ihre bevorzugte Zeit für Musikproben im Studio."
+  video: "mp4_url"
+  logo: "img/logo.png"
+  dateFormat: "02/01/2006"
+  widgets:
+    - search
+    - recent-posts
+    - related-posts
+    - post-categories
+    - post-tags
+  # control the number of items in widgets
+  relatedPosts: 5
+  recentPosts: 5
+  # postTags: 10
+
+  # modules
+  # module:
+  #   mounts:
+  #     - source: node_modules/bootstrap/scss
+  #       target: assets/scss/bootstrap
+  #     - source: node_modules/bootstrap/dist/js/bootstrap.min.js
+  #       target: assets/js/bootstrap.min.js
+
+  contact:
+    # https://schema.org/PostalAddress
+    address:
+      # first record is for schema
+      - name: Address
+        streetAddress:
+          - Böcklinstrasse 100
+        addressLocality: 1020 Wien
+        addressRegion:
+        postalCode:
+        addressCountry: Austria
+        # hasMap
+        url: https://goo.gl/maps/ha3CkTm5muAP3KD9A
+        geo: #coordinates
+        icon: icons/bootstrap/geo-alt.svg
+        # icon: bi bi-geo-alt
+        disable: false
+    # postal address is just for contact details display
+    # servicePostalAddress:
+    #   postOfficeBoxNumber:
+    #   addressLocality: Pyrmont
+    #   addressRegion: NSW
+    #   postalCode: 2009
+    #   addressCountry: Australia
+
+    openingHours:
+      - name: Opening Hours
+        icon: icons/bootstrap/clock.svg
+        # icon: bi bi-clock
+        hours:
+          # date is ignored for display and schema
+          # - day: Monday
+          #   open: 2021-01-01T14:00:00Z
+          #   close: 2021-01-01T18:00:00Z
+          - day: Dienstag
+            open: 2021-01-01T14:00:00
+            close: 2021-01-01T18:00:00
+          - day: Mittwoch
+            open: 2021-01-01T14:00:00
+            close: 2021-01-01T18:00:00
+          - day: Donnerstag
+            open: 2021-01-01T14:00:00
+            close: 2021-01-01T18:00:00
+          - day: Freitag
+            open: 2021-01-01T14:00:00
+            close: 2021-01-01T18:00:00
+          - day: Alle Tage
+            custom: <strong>nach Vereinbarung</strong>
+
+    telephone:
+      # first record appears in schema data
+      - name: Phone
+        text: (0676) 777 4149 Camilo Correa
+        url: "tel:+61280043293"
+        icon: icons/bootstrap/telephone.svg
+        # icon: bi bi-phone
+        disable: false
+    # mobile
+    # - text:
+    #   url:
+    #   icon: icons/bootstrap/telephone
+    #   disable: false
+    email:
+      - name: Email
+        text: support@promusica.co
+        url: "mailto:camilo@promusica.co"
+        icon: icons/bootstrap/envelope.svg
+        # icon: bi bi-envelope
+        disable: false
+        desc: Email Address
+  # only for contact details display
+
+contentTypes:
+  video:
+    layout: "video" # The layout template for videos
+    isPlainText: true
