@@ -9,6 +9,6 @@ price: "Inquiry"
 weight: 10
 ---
 
-From Handbuch der Laute und Gitare, Teil 1:
+From "Handbuch der Laute und Gitarre, Part 1":
 
-KÖDEL, Wilhelm, Musikinstrumentenmacher, geb. 8. Ausugst 1892 in Adorf (Vogtland), erlente den Zitherbau bei Adolf Meinel in Markneukirchen und besuchte dort auch die Fachschule. 1913 betätigte er sich als Gehilfe bei Franz Halbmeyer, München (Gitar- und Lauten-bau) und arbeitete später als I. Gehilfe wieder bei Meinel. Seit 1919 selbständiger Meister zu Eichigt im Votland.
+KÖDEL, Wilhelm, Musical Instrument Maker, born on August 8, 1892 in Adorf (Vogtland), learned zither making from Adolf Meinel in Markneukirchen and also attended the technical school there. In 1913, he worked as an assistant for Franz Halbmeyer in Munich (guitar and lute making) and later returned as head assistant to Meinel. Since 1919, he has been an independent master in Eichigt in the Vogtland.
