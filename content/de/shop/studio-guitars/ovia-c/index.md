@@ -8,6 +8,6 @@ price: "€ 290,00"
 source: https://www.promusica.co/
 ---
 
-Hier handelt es sich um das Studentenmodell des taiwanesischen Gitarrenbauers Tony Chen, namens "Ovia" (die zweite Hälfte von Segovias Namen, da Segovia Tonys größter Einfluss als Bewunderer der klassischen Gitarre ist).
+Hier handelt es sich um das Studentenmodell des taiwanesischen Gitarrenbauers Tony Chen. Das Modell "Ovia" ist nach Andrés Segovia benannt, der Tonys größter Einfluss als Bewunderer der klassischen Gitarre ist.
 
-Sie lässt sich leicht spielen und erzeugt einen vollen, klangvollen Ton. Ein ausgezeichnetes Preis-Leistungs-Verhältnis!
+Es lässt sich leicht spielen und erzeugt einen vollen Ton. Ein ausgezeichnetes Preis-Leistungs-Verhältnis!
