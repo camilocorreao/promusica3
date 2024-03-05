@@ -1,5 +1,5 @@
 ---
-title: "Ovia Vienna 30c"
+title: "Ovia Vienna 30c (Zedernndecke)"
 categories: ["Studio guitar"]
 date: 2023-12-10T21:56:13-04:00
 tags: ["Ovia"]
